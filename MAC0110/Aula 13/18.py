@@ -22,19 +22,4 @@ while cont > 0:
         print(cont, num - cont)
     cont -= 1
 
-"""
-pode_ser_escrito = False
-cont = num
-while cont > 1:  # Devo incluir o 1 como primo?
-    if eh_primo(cont):
-        cont2 = cont
-        while cont2 > 1:
-            if eh_primo(cont2):
-                if cont + cont2 == num:
-                    print(f'{cont} + {cont2} = {num}')
-                    pode_ser_escrito = True
-            cont2 -= 1
-    cont -= 1
-"""
-
 print("Acabou.")

@@ -2,7 +2,7 @@ import random
 import turtle
 
 
-def hit_detection(wn, t):  # A tartaruga morre com 4 colisões
+def hit_detection(wn, t):
     right_bound = wn.window_width() / 2 - 50
     left_bound = - right_bound + 50
     top_bound = wn.window_height() / 2 - 50

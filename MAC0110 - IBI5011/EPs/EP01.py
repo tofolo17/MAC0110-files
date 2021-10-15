@@ -1,0 +1,12 @@
+s = input("Digite uma string s: ")
+i = int(input("Digite um inteiro i: "))
+r = float(input("Digite um real r: "))
+
+print(f's + s = {s + s}')
+print(f'i + i = {i + i}')
+print(f'r + r = {r + r}')
+print(f'i * s = {i * s}')
+print(f'i * r = {i * r}')
+print(f'r / i = {r / i}')
+print(f'2 * i / i = {2 * i / i}')
+print(f'i / i * 2 = {i / i * 2}')
