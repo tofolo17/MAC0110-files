@@ -1,9 +1,11 @@
-coords = [[4, 2.5]]
+coords = [[-10, 10], [2, 7.75], [2, 7], [2, 6.5], [1, 1], [7.5, 0.5], [2, 2.5], [2, 4], [4.5, 4], [8, 8], [5, 7.75],
+          [6, 7.25]]
 
 for coord in coords:
     x = coord[0]
     y = coord[1]
 
+    # Sistema visível
     dentro = False
     if 0 <= x <= 8 and 0 <= y <= 8:
         dentro = True
@@ -23,10 +25,7 @@ for coord in coords:
 
     d_boca_1 = (x - 3) ** 2 + (y - 2) ** 2
     d_boca_2 = (x - 5) ** 2 + (y - 2) ** 2
-    na_boca = d_boca_1 < 0.5 or d_boca_2 < 0.5 or (3 <= x <= 5 and 1.5 <= y <= 2.5)  # Algo de errado por aqui
-
-    print(f'x: {x}, y: {y}')
-    print(no_olho, na_boca, d_boca_1, d_boca_2)
+    na_boca = d_boca_1 < 0.5 or d_boca_2 < 0.5 or (3 <= x <= 5 and 1.5 < y < 2.5)
 
     if dentro and (no_olho or na_boca):
         dentro = False

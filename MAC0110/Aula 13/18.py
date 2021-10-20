@@ -1,7 +1,9 @@
 def eh_primo(n):  # baseado no exercício 01, versão 02 do professor, aula 12.
-    if n != 2 and n % 2 == 0:
+
+    if n != 2 and n % 2 == 0:  # Se não for o 2 e for divisível por 2
         primo = False
-    else:
+
+    else:  # Números ímpares não são divisíveis por números pares. Logo, i += 2.
         i = 3
         primo = True
         while i < n // 2 and primo:
