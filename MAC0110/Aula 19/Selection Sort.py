@@ -1,7 +1,9 @@
-import random
+from random import randint
 
-v = [random.randint(1, 10) for _ in range(0, random.randint(1, 10))]
+v = [randint(1, 10) for _ in range(0, randint(1, 10))]
 i = 0
+
+print(v, len(v))
 
 while i < len(v) - 1:
     j = i + 1

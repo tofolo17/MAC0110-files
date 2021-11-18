@@ -1,6 +1,6 @@
 from random import randint
 
-v = [randint(1, 10) for _ in range(1, 10)]
+v = [randint(1, 10) for _ in range(0, randint(1, 10))]
 i = len(v) - 1
 
 while i > 0:
