@@ -121,6 +121,11 @@ def GraficaMCMPi(mediaMCMPi: list, desvioMCMPi: list, m: int):
     plt.show()
 
 
+"""
+Tudo volta ao normal...
+"""
+
+
 def leiaDados(filename: str):
     """
     :param filename: Nome do arquivo a ser lido;
@@ -157,4 +162,5 @@ def estimavaMediaPi(valoresPi: list) -> (float, float):
 """
 E a assinatura do E10?
 """
+
 main()
