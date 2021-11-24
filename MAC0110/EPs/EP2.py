@@ -7,14 +7,15 @@ from math import sqrt
 from random import random
 
 import matplotlib.pyplot as plt
-from pandas import read_csv
+import pandas
 
 
 def main():
-    SimulaConvergenciaPi(10, 100, 100)
+    SimulaConvergenciaPi(m=50, n=2000, r=10)
 
     dados = leiaDados('Dados EP2.csv')
-    print(calculaPi(dados))
+    values_pi = calculaPi(dados)
+    melhoraPi(values_pi)
 
 
 def mediaV(V: list, n: int) -> float:
@@ -93,37 +94,26 @@ def SimulaConvergenciaPi(m: int, r: int, n: int):
         dps += [sqrt(v)]
         i += 1
 
+    GraficaMCMPi(m, medias, dps)
+
+
+def GraficaMCMPi(mpontos: int, mediaMCMPi: list, desvioMCMPi: list) -> None:
     """
-    Até aqui, tudo perfeito.
-    """
-
-    GraficaMCMPi(medias, dps, m)
-
-
-def GraficaMCMPi(mediaMCMPi: list, desvioMCMPi: list, m: int):
-    """
-    Obs.: não sei se devo mesmo usar um parâmetro adicional 'm'.
-
     :param mediaMCMPi: Lista das médias de cada simulação maior;
     :param desvioMCMPi: Lista dos desvios padrões de cada simulação maior;
-    :param m: Número de elementos em 'mediaMCMPi'.
+    :param mpontos: Número de elementos em 'mediaMCMPi'.
     """
-    xticks = range(1, m + 1)
+    xticks = range(1, mpontos + 1)
 
     plt.errorbar(xticks, mediaMCMPi, yerr=desvioMCMPi, fmt='o')
 
-    plt.xticks(xticks)
+    plt.xticks(xticks, rotation=-90, fontsize=7)
     plt.xlabel("Simulações")
 
     plt.ylabel("Valores")
 
-    plt.title("Simulação da convergência de Pi")  # Rever título
-    plt.show()
-
-
-"""
-Tudo volta ao normal...
-"""
+    plt.title("Convergência - π")
+    plt.savefig('GraficaMCMPi')
 
 
 def leiaDados(filename: str):
@@ -131,7 +121,7 @@ def leiaDados(filename: str):
     :param filename: Nome do arquivo a ser lido;
     :return: Objeto contendo os dados do arquivo.
     """
-    dados = read_csv(filename, sep=';')
+    dados = pandas.read_csv(filename, sep=';')
 
     return dados
 
@@ -144,7 +134,7 @@ def calculaPi(dados) -> list:
     i = 0
     pis = []
     while i < len(dados):
-        pis += [dados['circuferencia'][i] / dados['diametro'][i]]
+        pis += [dados['circunferencia'][i] / dados['diametro'][i]]
         i += 1
 
     return pis
@@ -159,8 +149,58 @@ def estimavaMediaPi(valoresPi: list) -> (float, float):
     return mediaV(valoresPi, size), varV(valoresPi, size)
 
 
-"""
-E a assinatura do E10?
-"""
+def E10(dados) -> None:
+    """
+    Falta assinatura apropriada.
+    """
+    plt.scatter(dados['circunferencia'], dados['diametro'])
+
+    plt.xlabel("Circunferência (cm)")
+    plt.ylabel("Diâmetro (cm)")
+
+    plt.title("Relação circunferência x diâmetro das medidas")
+
+    plt.show()
+
+
+def GraficaPiEstimado(valoresPi: list) -> None:
+    """
+    :param valoresPi: Lista de valores aproximados de Pi.
+    """
+    x = range(1, len(valoresPi) + 1)
+
+    plt.scatter(x, valoresPi)
+
+    plt.xlabel("Índice")
+    plt.ylabel("Valores de π")
+
+    plt.title("Estimativa de π")
+
+    plt.show()
+
+
+def melhoraPi(valoresPi: list) -> None:
+    """
+    :param valoresPi: Lista de valores aproximados de Pi.
+    """
+    df = pandas.DataFrame(valoresPi, columns=['valores'])
+
+    q1 = float(df.quantile(0.25))
+    q3 = float(df.quantile(0.75))
+
+    iqr = q3 - q1
+
+    df2 = df[q3 + 1.5 * iqr > df['valores']]
+    df3 = df2[q1 - 1.5 * iqr < df2['valores']]
+
+    plt.scatter(range(len(df3)), df3)
+
+    plt.xlabel("Índice")
+    plt.ylabel("Valores de π")
+
+    plt.title("Estimativa de π")
+
+    plt.show()
+
 
 main()

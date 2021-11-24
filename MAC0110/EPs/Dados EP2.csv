@@ -1,63 +1,1148 @@
-"nome_objeto";circuferencia;diametro;
-"abajur";55.2;17.5;
-"adesivo";7.53;2.4;
-"alcool_em_gel";25.3;8.0;
-"Balanca";46.0;14.0;
-"Baleiro";38.0;12.0;
-"Banco_de_madeira";87.5;27.8
-"boia_de_rede_de_cerco";19.0;6.2;
-"bola";69.2;22.0;
-"branquinho";8.6;2.6;
-"caixa_de_som";28;7.5;
-"caneca";23.7;8.6;
-"caneca";25.6;8.2;
-"caneca";25.9;8.0;
-"caneca";26.7;8.5;
-"carretel_de_linha";5.0;1.5
-"Cofre";9.3;2.7;
-"copo";17.0;5.5;
-"Copo";20.0;6.0;
-"copo";21.8;7.9;
-"copo";22.2;8.3;
-"copo";22;7.6;
-"Copo";24.5;7.8;
-"copo";29.8;9.5;
-"Copo";31.5;10.0;
-"Copo_de_plastico";26.7;8.5;
-"desodorante";14.3;4.3;
-"durex";12.5;3.9;
-"embalagem_de_bala";17.9;5.5;
-"Fone";23.5;7.65;
-"Fone_headset";21.038;6.7;
-"garrafa";22.4;7.0;
-"garrafa";37.68;12;
-"garrafa_de_champagne";25.0;7.0;
-"garrafa_termica";21.4;6.4;
-"Garrafinha_d_agua";22;7.0;
-"Lanterna";12.26;3.9;
-"lata";26.1;8.0;
-"Lata_de_Nescau";22.9;7.3;
-"Lata_de_Wafes";30.5;9.7;
-"lixeirinha";38.9;12.2;
-"pandeiro";80.4;25.4;
-"panela";86.9;28.0;
-"porta_canetas";22.7;7.2;
-"Porta_palitos_de_dente";13.2;4.2;
-"pote_de_alcool_gel";22.6;7.2;
-"Pote_de_arroz";61.3;19.5;
-"Pote_de_Cafe";45.9;14.7;
-"pote_de_whey";35.9;11.2;
-"prato";56.5;18.0;
-"prato";60.0;19.5;
-"ring_light";83.0;26.0;
-"roda_de_skate_de_silicone";18.0;5.4;
-"Saleiro";16.7;5.3;
-"Tampa";20.5;6.0;
-"tampa_da_garrafa_termica";29.2;9.3;
-"tigela";40.0;13.0;
-"tubo_de_cola";9.5;3.1;
-"vaso";32.5;10.2;
-"vela";16.0;5.1;
-"Vela";23.1;7.5;
-"Ventilador";144.4;46;
-"Ventilador";193.0;61.0;
+Objeto;circunferencia;diametro
+garrafa de café; 34; 10.5
+creme de pentear; 24.5; 7.8
+garrafa; 22.6; 7.2
+Caixa de Panetone Cilíndrica; 60.7; 19.3
+lataBauducco; 34; 10.8
+caneca; 29.7; 9.5
+prato; 50; 19.
+licor;8.1;5.4
+caneca; 26.7; 8.5
+embalagem; 8.0; 2.2
+pote de creme; 28.3; 9.0
+garrafa; 27.5; 8.0
+balde; 78.0; 25.0
+Tampa de alcool em gel; 7.3; 2.0
+Tampa; 48.1; 16.0
+tampa; 2.7; 3.5
+lata de leite ninho (nestle); 31.4; 9.8
+Luminaria; 28.0; 8.1 
+Tampa1; 22.7; 7.2
+garrafa;3.3;10.2
+moeda;8.55;2.69
+corretivo;8.5;2.7
+caneca; 26.5; 8.5
+Garrafa Vodka; 29.5 ; 9.4
+Jarra;34.6;11.0
+Tampa_Perfume; 9.6; 2.7
+OldSpice;15.0;4.4
+Apoiador de Copos; 27.4; 8.7
+Moeda 1 centavo; 5.39; 1.7
+caneca; 28.8; 9.3
+xícara; 24.5; 7.7
+fita; 29.83; 9.5
+lata; 24.6; 7.7
+balde de gelo; 57.5; 18.0
+Parte inferior desodorante; 12.56; 4.2
+Caneca;28.4;9.0
+Fita; 33.6; 9.9
+balança digital; 48.0; 15.0 
+Tampa de plástico redonda;100.5; 8
+Fita crepe; 28.1; 8.3
+caneca;27.4;8.5
+cesta_de_roupas;150.9;48
+lata; 39.5; 12.4
+Forma; 94.10; 29.40
+Garrafa; 22.3; 6.7
+portaclips; 15.0; 4.8
+copo; 26.0; 8.2
+Garrafa de café; 34; 11
+Copo;28.0;8.5
+tampa; 13.8; 4.4
+Caneca; 25.0; 7.7
+Copo; 23.5; 8.5
+tampa tubo de lápis;16.2;5.0
+Caneca; 28.3; 8.8
+lata de spray; 10.7; 3.2
+lata; 23.5; 7.4
+tamparemedio; 12.5 ; 3.9
+copo; 26.4; 8.4
+base do rolo de linha; 22.7; 7.0
+copo; 8.2; 2.6
+lata de lixo; 77.6; 25.6
+xicara; 28.0; 8.5
+Guidão de bicicleta; 7.2; 2.2
+Garrafa d’água; 24; 7 
+Pote; 29.0; 9.0
+Latadeleitecondensado;21.1;6.4
+Creme; 29.8; 8.9
+Copo; 26.5;8.1
+balde de pipoca; 44.3; 14.0
+Tampa do fermento; 16.8; 4.9
+portajoia; 24.2; 7.7
+Garrafa de água; 18.8; 6.0
+Copo americano;9.2;6.7
+spray de cabelo;16.4;5.2
+caneca; 25.3; 7.9
+Tampa de um tapoer; 43.8; 14.1
+Spray de Ar Comprimido; 16.8; 5.3
+Lataferro;28.5;9.0
+lápis; 2.5; 0.7
+copo; 22.3; 6.6
+pote de creme de avelã; 20.5; 6.4
+caneca; 9.1; 28.90
+lata200ml;18.3;5.5
+Tampa plástica; 40.84; 13.0
+garrafinha;18;5.5
+Depósito de apontador; 12.5; 3.9
+protetor solar; 15.7; 4.8
+Fundo de galão de água 6.25L;42.2;13.1
+Copo; 56.5; 9.0
+Inseticida; 19.6; 5.7
+Embalagem de protetor solar; 12.0; 3.0
+Lata;53.4;8.5
+embalagem plástica; 21; 6.68
+Pote;25.3;8.5
+Desodorante; 14.5; 4.5
+Copo; 20.8; 6.2
+cebola; 21; 6.75
+vela7dias; 15.6; 5.0
+Caneca de porcelana;26;8.1
+tampa;31.8;10.0
+prato; 62.8; 20
+tampinha de gatoraid; 10.25; 3.30
+Caneca; 25; 8.5
+prato; 28.3; 9.0
+Pote;5;15.6
+Caixinha;18.0;5.7
+Tampa de Nutella; 18.5; 5.6
+Bolinha do dog;6;3
+garrafa; 26.9;8.3
+Lata de refrigerante; 20.7; 6.5
+panela; 50; 15.8
+cofre; 34.0; 10.8
+cano; 7.9; 2.5
+Tampa Caixa de Biscoitos; 59.8; 19
+CopoMaior; 21; 6.5
+spray; 19.5; 6.2
+copo; 16; 4.5
+copo;29.2;9.3
+toddy; 22.5; 7.1
+tampa; 28.8; 8.9
+pote de cera; 23.3; 7.4
+vasobambu; 28; 8.5
+tampa de panela; 67.0; 22.5
+Topo do cabideiro; 11.5; 3.4
+Lata; 29.0; 10.0
+copo;21.0;6.8
+batata Pringles; 21.4; 6.9
+Caneta; 3.9; 0.4 
+Tampa2; 35.6; 11.4
+Copo;5.6;17.4
+durex externo;33.65;10.69
+caneca;25.9;8.2
+copo; 21.5; 6.5
+Vaso Planta ; 42.7 ; 13.6
+Prato;81.7;26.0
+Caneca; 21.5; 6.6
+ColaBastão;10.2;2.95
+Base De Container Cilíndrico; 42.8; 13.4
+Moeda 5 centavos; 6.91; 2.2
+pote de picles; 25.4; 8.0
+hidratante; 19.3; 6.2
+cd; 37.68; 12
+caneca; 43.3; 13.5
+Garrafa d'água Outback; 20.5; 6.0
+Copo; 26.4; 8.4
+Copo;22.0;7.0
+Copo; 25.4; 8.8
+abajur; 80.5; 25.3
+Tampa de desodorante;14.1;3
+Frasco de produto de limpeza; 18.8; 5.4
+pote;49.3;16.0
+caneca;28.4;8.8
+tampa; 28.6; 8.5
+Lata; 27.00; 8.55
+Pote de açúcar; 47.8; 14.1
+durex; 28.8; 9.1
+lata; 18.3; 5.8
+Caneca; 27.5; 8.7
+Frasco;9.8;3.0
+bolacha; 13.1; 4.2
+Pote de gel; 27.5; 8.8
+Caneca; 27.6; 8.2
+tubo de lápis;16.1;5.0
+porta lapis; 48; 15
+tampa de garrafa; 29.1; 9.3
+vela; 16.0; 5.0
+caneca; 20.9 ; 6.6
+desodorante; 16.5; 5.25
+tampa do pote de toddy grande; 28.8; 8.9
+panela; 58.9; 18.8
+balde; 54.2; 16.8
+garrafa; 26.0; 8.0
+Bottom; 12.7; 4
+Fita Crepe; 32; 10
+Desodorante; 18.4; 5.8
+Copo;19.9;6.4
+Baleiro; 37.3; 11.7
+Garrafa de água; 23.6; 7.3
+pote de slime; 26.5; 8.8
+Lata de atum; 27.5; 8.6
+portajoia; 23.3; 7.4
+Caneca;28.8; 9.2
+Pote;27.5;8.1
+copo;24.2;7.6
+copo; 21.1; 6.7
+taça de vidro;  35.5; 11.6
+Tampa de Garrafa; 9.6; 3.0
+Pratomicroondas;86.5;27.7
+corretivo líquido; 8.8; 2.8
+tampa; 29.1; 9.1
+xícara; 25.5; 8
+xícara; 8.4; 26.5
+remedio;18.5;5.6
+Copo de vidro; 21.05; 6.7
+tamopa de garrafinha;9.5;3
+Base do copo americano; 16; 4.8
+lata de biscoitos;  60.1; 19.0
+Grade do ventilador de chão;132.7;4.6
+Caneca; 50.0; 8.0
+Copo1; 21.1; 7.0
+Embalagem de hidratante; 14.0; 4.0
+Copo;56.5;9
+caneca; 25 ; 7.96
+Xícara;27.2;8.2
+Tampa; 16.1; 4.8
+Vaso; 56.6; 17.5
+tampa de perfume; 11.3; 3.6
+forma; 75.0; 23.8
+garrafa de vidro 350ml;19.5;5.1
+jarra;31.4;9.9
+lata de leite em pó; 49.9 ; 15.8
+disco de madeira; 10.5; 33.0
+Copo Americano; 20; 6
+copo; 9.4 ; 3.0
+Tampa;6;19
+Álcool;26.6;8.5
+Pokébola; 14.9; 4.7
+Pote de creme;20;5
+boca de fogão elétrico; 48.6;15.6
+Lata de Leite; 31.1; 10
+porta cd; 39.5; 12.5
+creme para os pés; 29.2; 9.3
+mesa; 377.2; 120.1
+Embalagem de talco; 15.1; 4.8
+CopoMenor; 20; 6
+desodorante; 15.5; 4.9
+maçaneta; 18; 5.5
+desodorante;14.5;4.4
+álcool; 24.0; 7.6
+caneca; 25.7; 8
+cola bastão; 7.3; 2.3
+termica; 21; 6.5
+fita adesiva; 26.0; 8.0
+Cofrinho ;19.6 ;6.0
+Tomada; 25.6; 8.0
+copo;21.1;6.9
+Toddy; 22.8; 6.8
+Pote; 30.5; 9.1 
+Fita; 28.2; 9.0
+Copo;8.9;27.8
+durex interno;24.01;7.71
+prato;77.4;24.6
+embalagem; 26.5; 8.0
+Copo Vidro ; 23.8 ; 7.6
+Mesa;377.0;120.0
+Tampa_Cola; 7.0; 2.0
+FitaAdesivaGasta;28.5;8.2
+Tampa De Um Copo; 32.3; 10.1
+Moeda 10 centavos; 6.28; 2.0
+pote de comprimidos; 18.6; 5.9
+leiteira; 49.7; 16.6
+xicara; 21.04; 6.7
+xícara; 25.2; 8.0
+Vidro de álcool em gel; 24.5; 7.3
+Caneca; 32.70; 10.4
+Rolo de Papel Higienico;28.4;9.0
+Caixa; 40.6; 13.5
+tigela; 80.0; 25.5
+Base de uma garrafa plastica;40;5
+Porta Moedas; 25.2; 7.7
+pokebola;16.0;5.4
+vasilha_pao;66.3;20.78
+panela; 63.7; 20.3
+Panela; 76.35; 24.00
+Pote de guardar ração; 42.5; 12.5
+relogio; 21.3; 6.7
+pote; 18.4; 5.9
+Moedor de pimenta; 19; 6.1
+Tampa;9.2;2.7
+lixo; 70.3; 22.4
+Porta lente; 10.0; 2.8
+Corretivo; 9.0; 2.5
+tampa nescau;27.5;8.7
+perfume; 14.8; 4.5
+base de cesto; 85.5; 26.2
+vidrinho; 10.5; 3.3
+desorodante; 14.3 ; 4.5
+panela; 53.7; 17.1
+pote de creme hidratante; 22.4; 6.7
+pote; 31.2; 9.9
+lata de leite; 31.6; 10
+balanca; 45.0; 14.0
+Tampa de pote; 22.9; 7.2
+Pote de cereal; 32; 10.5
+Lata de cerveja; 18.2; 5.4
+Caixa;33.7;10.2
+Condicionador; 15.0 ;4.9
+Ventilador; 108.2; 35.4
+garrafa térmica; 28.8; 8.6
+Caneca; 26.8; 8.1
+caneca; 27.4; 8.7
+Garrafa de coca; 6.2; 2.0
+Saleiro;20;8
+cinzeiro;28.9;9.2
+tijela; 44.5; 14.2
+tampa da garrafa gatorade; 11.3; 3.8
+Garrafa de Álcool; 26.4; 8.4
+Frigideira;76.5;24.5
+brinquedo circular; 14.8; 4.5
+desodorante; 14.3; 4.5
+xícara; 23.3; 7.5
+pote; 9.2; 29.0
+garrafa;23;7.1
+Caneca; 26.07; 8.3
+caneca;27;9
+Leite condensado em lata; 21.2; 6.5
+lixeira; 73.1; 23.2
+Frigideira;66.2;21.1
+Pote; 69.0; 11.0
+Copo2; 19.4; 5.8
+Embalagem de álcool em gel; 24.0; 7.0
+Pote;31.4;5
+garrafa plástica; 29.5 ; 9.39
+Copo;17.9;5.6
+Cano; 32.4; 10.2
+Porta-controle; 23.8; 7.1
+garrafa; 20; 6.5
+pote; 28.4; 9.0
+lata de energético 473ml;21;6.5
+caneca;25.8;8.4
+biscoito maria; 18.84; 6
+tampa de lapiseira; 1.58 ; 0.5
+Garrafa; 30; 9
+potinho ; 3.14 ; 1.0
+Vaso;12;38
+Lata;31.3;9.7
+Caneca; 22.3; 7.2
+Garrafa;8;4
+pote; 29.6;8.9
+Molho de Pimenta; 14.5; 4.5
+tampa; 70; 22
+talco; 17.5; 5.6
+caneca; 25.1; 8.0
+Cofre; 20.1; 6.3
+Botao; 11; 3.5
+demaquilante; 16.0; 5.1
+rolo de fita; 32; 10.
+tupperware;34.8;10.9
+copo; 14.5; 4.6
+forma; 73.5; 23.2
+corretivo; 8.2; 2.6
+papelhig; 34.5; 11.0
+tampa de um potinho; 20.3; 6.4
+Desodorante; 14.5; 4.5
+Rodinha; 37.2; 12.0
+lata de milho; 22.6; 7.3
+Batom; 6.9; 1.9 
+Tampa3; 11.3; 3.6
+vela;16.3;51.2
+cd;37.58;11.98
+pires;43.7;13.9
+garrafa; 23.0; 7.0
+Desodorante ; 10.0 ; 3.2
+Apoio;204.2;65.0
+moeda; 7.7; 2.3
+PilhaAAA;2.9;0.9
+Borda Superior de uma Caneca; 27.2; 8.6
+Moeda 25 centavos; 7.85; 2.5
+fita adesiva; 11.3; 3.6
+copo; 19.1; 6.9
+pulseira; 23.24; 7.4
+desodorante; 15.1; 4.8
+Lata de Nescau NBA; 41.0; 13.0
+Adesivo; 7.5; 2.4
+Aliança;6.3;2.0
+Lata; 32.0; 10.0
+talco; 16.0; 4.8
+Base de uma xicara;157;10
+Desodorante; 15.9; 4.4
+prato;78.0;23.9
+vasilha_biscoito;34.1;10.7
+álcool; 11.3; 3.4
+Rolo de papel; 33.55; 10.50
+Pote de Nescau; 23.2; 8.2
+lanterna; 11.5; 3.7
+globo; 50.2; 16.0
+Copo descartável; 22.5; 7.2
+Joystick;6.9;2.1
+vaso; 48.9; 15.5
+Esparadrapo; 18.0; 5.6
+Pote de álcool; 25.1; 7.4
+lata nescau;27.3;8.5
+desodorante; 14.3; 4.4
+caneca; 23.4; 7.4
+maquiagem; 19.0; 6.0
+copo; 20.9 ; 6.7
+fita adesiva; 28; 8.9
+roda de puxar de maquina de costura; 38.6; 12.0
+paliteiro; 16.1; 5.1
+garrafa de cola; 24.6; 7.8
+desodorante; 15.0; 3.8
+Caneca; 25.6; 8
+Pacote de bolacha; 14.7; 4.3
+Tenys pé; 15.9; 5.9
+Pringles;21.4;7.9
+Lixeira; 77.6; 25.0
+CD; 37.6; 11.9
+copo de vidro; 23.1; 6.4
+Tampa de maionese; 21.5; 6.5
+garrafa; 23.6; 7.5
+Botão do videogame; 9.4; 1.6
+Lata Cerveja Skol;21;5.4
+vaso;45.7;15.0
+rolo de fita; 30.4; 9.6
+xícara; 22.4; 7.3
+Pote de Álcool em Gel; 25.2; 8.1
+Baldepreto;78.0;25.5
+porta canetas; 27.2; 8.6
+caneca; 26.0; 8.2
+esmalte de unha; 8.1; 2.3
+copo; 7.4; 23.1
+tubodebola;24.4;7.4
+Garrafa; 24.50; 7.8
+joystick de controle de video game;5.4;1.6
+Lata de atum ralado; 26.9; 8.7
+garrafa de uisque; 31.3; 9.9
+Fundo de bacia;65.2;20.4
+Anel; 15.5; 2.5
+Copo3; 20.1; 4.7
+Anel; 6.0; 1.5
+Copo;40.8;6.5
+açucareiro;  31.5 ; 10.03
+Pote;26.5;8.2
+Pote; 10.2; 3.2
+Lixo; 56.6; 18.5
+fita; 12.8; 4
+velapalito; 5.2; 1.7
+vela;30;9.3
+desodorante;16.8;5.3
+tampa de garrafa; 9.42; 3
+caneta de quadro branco; 5.65; 1.8
+desodorante; 13; 4
+pote de mms ; 6.3 ; 2.0
+PesodePapel;8;25
+Vaso;35.2;11.4
+Garrafa; 32.3; 10.2
+Bola;30;15
+leiteira; 39.8;11.9
+Tubo de vitamina C; 9.3; 2.8
+balde; 88; 26.5
+rolo diploma; 14.7; 4.7
+varao; 6.0; 1.9
+Garrafa; 26.9; 8.5
+Tampa; 10.4; 3.3
+garrafa; 27.5; 8.8
+tampa; 12.5; 4.
+vaso;37.2;11.8
+lata; 49.1; 15.4
+pote; 36.9; 11.7
+rímel; 5.4; 1.7
+potecreme; 23.5; 7
+tampa de um pote; 32.0; 10.0 
+Spray limpa contato; 16.5; 5.2
+Anel; 10.5; 3.0
+Nescau; 25.5; 8.6
+Io iô; 18.0; 6.9 
+Tampa4; 67.0; 21.0
+vaso;32;100.3
+ventilador;140.87;44.20
+apontador;10.7;3.4
+mesa; 300.0; 100.0
+Pote Remédio ; 13.8 ; 4.4
+PratoBailarina;141.4;45.0
+desodorante; 14.5; 4.4
+TintaGuache;9.5;2.8
+Container Cilíndrico; 29.4; 9.2
+Moeda 50 centavos; 7.22; 2.3
+leiteira; 53.6; 17.0
+caneca; 21.9; 7.0
+copo; 25.12; 8
+panela; 70.6; 22.9
+Porta CD; 48.0; 15.0
+Parte inferior álcool em gel; 40.3; 12.6
+Pote redondo;47.1;15.0
+Copo; 17.6; 5.0
+saleira; 37.0; 11.5
+Garrafa;353.5;15
+tampa de perfume; 9.6; 2.9
+garrafa;24.8;8.0
+forma_pizza;95;30
+caneca; 25.4; 7.9
+Caneca; 25.90; 8.20
+Pote de palitos de dente; 14.5; 4.6
+pomada; 25.3; 8.1
+rolha; 9.9; 3.1
+Frasco de remédio; 17.5; 5.5
+Mesa;110.5;35.0
+prato; 72.7; 23.1
+Barra de ferro; 16.3; 5.2
+Prato; 60.0; 19.0
+lata ervilha;23.1;7.5
+shampoo; 24.5; 7.8
+filtro; 70.0; 22.2
+copo; 23.5; 7.4
+tacavinho; 32.2 ; 10.2
+pote de açaí; 31.7; 10.1
+tampa de pomada; 4.8; 1.2
+relógio; 80.7; 25.7
+desodorante; 14.4; 4.5
+lata; 28.0; 9.0
+Tampa de spray; 20.6; 6.7
+Flogoral; 10.2; 2.8
+Lata de leite ninho; 31.5; 10.0
+Estojo;23.4;7.2
+Achocolatado; 28.7; 8.7
+Tampa do cesto de roupa; 123.3; 39.2
+caneca de café; 26.7; 7.7
+Lata de ervilha; 24.2; 7.5
+tampa; 13.2; 4.2
+Luminária; 16.6;5.3
+Tampa de baleiro; 31.1;9.8
+tupperware;64.1;20.2
+lata; 33.6; 10.4
+panela; 49.8; 16.1
+Pote de Leite em Pó; 31.5; 10.0
+Ralodepia;17.0;5.5
+rolo fita crepe; 30.8; 9.7
+espuma de barbear; 11.4; 3.6
+corretivo liquido; 8.6; 2.7
+tampa de maionese; 6.3; 19.8
+canetao;2;6.3
+Panela; 73.83; 23.50
+relogio;16;4.5
+Base da lata de achocolatado em pó; 24; 7.6
+tampa; 34.1; 10.8
+Fita Isolante; 22.0; 3.5
+Copo5; 20; 4.4
+Esmalte; 11.0; 4.0
+Tampa;22;3.5
+pote de vidro; 23 ; 7.32
+Pote;28.1;8.7
+Tampinha; 9.5 ; 3
+Anel; 7.7; 2.3
+lápis; 2.7; 0.7
+manteigadecacau; 5.1; 1.6
+rolo interno do papel higiênico;13;4.2
+garrafa;19.9;6.3
+cd; 37.68; 12
+rola de durex; 13.5; 4.3
+creme; 30; 9
+copo ; 31.2 ; 10.0
+Frasco;3;9.5
+Copo;28.6;9.4
+Lente; 42.7; 13.7
+Desodorante;4;2.4
+tampa de panela; 52.8; 17.6
+Dipirona em Gota; 9.5; 3.0
+ring light; 83.0; 26.0
+garrafa termica;21.4;6.4
+Lata de Nescau;22.922;7.3
+vaso; 32.5; 10.2
+Copo; 18.5; 5.2
+Copo de plástico;26.7;8.5
+copo; 22.2; 8.3
+prato; 56.52; 18
+roda de skate de silicone; 18 ; 5.4
+Tampa; 20.5; 6.0
+Ventilador; 193 ; 61
+copo;21.8;7.9
+copo;29.8;9.5
+caneca; 25.6; 8.2
+aliança; 7.4; 3.4
+Rolo de fita crepe; 33.7; 10.7
+Garrafa;20.5;6.5
+pote;33.2;10.4
+Jarro; 47.5; 14.0
+ventilador;150.0;46.0
+embalagem de creme; 17.4; 5.5
+Xícara; 26.0; 8.0 
+tigela; 63.5; 20.3
+abajur; 110; 35
+Bombonierie; 47.1;15
+cumbuca; 79.17; 25.2
+Frasco Danone; 17.0; 4.8
+Lata de Spray de Cabelo; 17  ; 5  
+Pote; 31.5; 10.0
+copo; 21.4; 6.8
+CD;37.68;12.0 
+Lata de Açúcar; 31.5; 10.0
+GarrafadeVinho;24.6;7.9
+Caneca de Sopa; 37.5; 12.0
+copo; 26; 8.2
+pote; 19.0; 6.0
+Pote; 8.5; 26.5
+copo grande ; 30.1 ; 9.3
+pote de fita isolante; 28.0; 9.0
+garrafa;23;7.32
+Saboneteira;25;07
+Panela; 60.0; 19.0
+PortaLapis;18.4;5.5
+pote de vitamina; 18.5; 6.0
+Salgadinho Pringles;21.5;7.0
+garrafa;  22.0; 7.0
+Creme;7.8;2.5
+porta-caneta; 26.0; 8.0
+caneca; 26.2; 8.0
+creme;19.1;5.9
+caneca;30.0; 9.0
+caneca; 27.3; 9.8
+copo; 19; 6
+garrafaagua;26.4;8
+desodorante; 14.2; 4.4
+desodorante natural;17.5;5.3
+prato;88;28
+Garrafa Refrigerante; 23.0; 8.0
+Breu;14.75; 4.5
+Haltere;44;14
+Pote de Café; 33.6 ; 10.6 
+caneca; 23; 7
+copo; 30; 8.75
+Copo de plástico pequeno; 19.2; 6.2
+caneca; 23.1; 7.5
+ventilador;117;38
+Desodorante;4.3;4.2
+tampa; 4.23 ; 0.4
+Pote de creme de tratamento capilar; 35.9; 5.7
+Vaso pequeno de flor;20 ;5.2
+CD; 37; 12
+Caneca de plástico;23.56;7.5
+lata de pêssego; 32.2; 10
+Prato; 62.8; 20.0
+Copo; 20.5; 6.0
+tampa; 10.5; 3.2
+lata de perfume; 21.2; 7.4
+Vaso de planta;55.5;18.8
+Squeeze;23.5;7.5
+tampa; 29.0; 9.2
+caneca; 25.4 ; 7.8
+Tampa de Suco;18.0;5.0
+Tampa de refrigerante; 9.5; 3
+Fita durex; 28; 8.3
+Caneca;25.5;8
+bule;33;9.5
+Garrafa térmica; 42.0; 13.1
+cúpula; 38; 12.2
+porta canetas; 27.0; 9.0
+Tupperware; 67.0; 21.3
+Bacia ; 95.5; 30  
+spray glade; 18.4; 5.7 
+Lixo; 56.2  ; 18  
+luminária;36.5;11
+cinzeiro;25.5;8.0
+Caneca; 27.8; 8.9
+Pote; 31.2; 9.6
+CD; 37.68; 12
+Pote de gel; 21.55 ; 6.85 
+Detergente; 18.2; 5.8
+prato;60.2;19.3
+garrafa térmica; 40.84; 13.0
+caneca; 26.0; 8.0
+pote de creme; 23; 7 
+Xícara; 22; 3
+Biscoito; 18.84; 6
+pote; 23.55 ; 7.5
+caneca; 25.0; 7.5
+porta-canetas;26;8
+Lata Nescau;22.922;7.3
+caneca; 21.2; 6.0
+quadro;56;17.8
+Panela;38.0;12.2
+Vaso; 55.5; 17.1
+Copo; 15.3; 8.1
+Inseticida; 18.4; 5.6
+PoteRação;30.5;9.7
+Luminária;35;11
+panela; 71.0; 22.6
+Fita de polietileno; 29.05; 09.00
+garrafa; 29.5; 8.0
+desodorante;14.3;4.3
+Garrafinha d'água;21.98;7.0
+branquinho; 8.6; 2.6
+Baleiro; 38; 12
+Pote de arroz;61.3;19.6
+durex; 12.5; 3.9
+bola; 69.08; 22
+boia de rede de cerco; 19; 6.2
+Cofre; 9.3; 2.7 
+Copo; 24.5 ; 7.8
+caneca;23.7;8.6
+vela;22;7
+copo; 17.0; 5.5
+lata de refri; 17; 5.5
+Lata de repelente; 18.4; 5.8
+Copo;18.6;5.3
+copo;19.7;6.2
+Saboneteira; 24.5;7.8
+prato;82.0;26.0
+garrafa; 24.2; 7.5
+Álcool; 23.5; 8.0
+bandeja; 110.0; 35.0
+bowl; 42.5; 13.5
+tampa de panela; 69.708;22.2
+abajur; 53.4; 17.0
+Desodorante; 17.0; 5.0
+Panela Cassarola 4L; 77.5  ; 25  
+Copo; 23.0; 7.3
+vaso; 61.4; 19.5
+Prato;62.80;20 
+Pote de geleia; 22.0; 7.0 
+TintaAcrilica;11;3.3
+Canecão; 46.5; 15.0
+tampa; 25.5; 8
+caneca; 27.0; 8.5
+Vaso; 8.0; 25.9
+cola ; 5.6 ; 2.7
+álcool em gel; 17.6; 5.1
+creme;21;6.68
+Vanish;33;11
+CD; 38.0; 12.0
+Canetao;4.2;1.0
+xícara de café; 16.5; 5.0
+Espuma de barbear;18.0;5.3
+cola; 15.7; 2.5
+Garrafa;18.3;6
+álcool em gel; 25.3; 7.5
+desodorante; 16.9; 5.9
+garrafa;27.5;8.5
+desodorante; 17.0; 5.0
+garrafa; 24.2; 8.0
+coqueteleira; 22.7; 7
+copo;23.4;7.1
+copo; 19.5; 6.1
+creme de cabelo;21.0;8.5
+tampinha;9.3;3
+Caixa de Som; 105.5; 20.5
+Tampa de garrafa;30.2;9.5
+Ventilador;141;45
+Tampa Nutella pequena; 18.8 ; 6 
+rolo de papel; 13.5; 4.5
+cola em bastão; 8; 2
+Base Garrafa de academia; 41.1; 12.9 
+rolodepapelcheio; 32.2; 10.3
+prato;83;26
+Lysol;21;6.5
+ima; 1.74 ; 0.15
+Creme facial; 20; 5.7
+Pote de remédio;12.5; 3
+Lata de tinta; 18.3 ; 6
+Bowl de metal; 66 ;21
+caneca; 26.5; 8.0
+Bola de futebol; 69.1; 22.0
+Prato; 70.0; 22.0
+copo; 21.5; 7.1
+rolo de durex; 26.6; 8.0
+Banqueta;95.1;30.5
+Lata;32.5;10.3
+Pneu; 153.0; 48.5
+guarda remédio; 18.7; 5.5
+Porta Lápis;27.1;9.0
+Tampa do tamborete; 87.5; 27.5
+Creme facial; 22.5; 7.8
+Pote;33;10
+pote;52;16
+Pote de condimentos; 32.0; 10.8
+garrafa térmica; 31.6; 9.8
+perfume; 16.0; 5.0
+Tampa de Panela; 60.0; 19.1
+lata ; 53; 17  
+vela; 16.5; 5
+Copo;17.6  ;5.8  
+vaso;44.5;13.75
+garrafa;29.0;9.0
+Cofre;30.5; 9.2
+Panela; 64.3; 20.2
+Tampinha; 9.42; 3
+Saboneteira; 25.20 ; 8.00 
+Caneca; 28; 7.7
+portalapis;21.4;6.7
+balde; 108.38; 34.5
+copo; 18.5; 5.1
+cilindro de formatura; 15;  4.5  
+Panela de Pressão; 63; 21
+Tampa de garrafa; 9.42; 3
+Alcool em gel; 21.98 ;7
+esparadrapo; 19.0; 5.4
+rolo-de-durex;29;10
+Prato;88 ; 28
+desodorante; 14.1; 4.3
+CaixaDeSom;24;7.7
+Ventilador;48.1;15.3
+Caneca; 26.8; 8
+Vela; 5.2; 2.3
+Tampa; 14.0; 4.4
+Panela;71.2;22.5
+Fôrma;83.5;27
+caneca; 32.5; 10.35
+inseticida automático (base); 21.05; 6.10
+tigela; 40.0; 13.0
+caneca;25.9;8.0
+Lanterna;12.246;3.9
+pandeiro; 80.4; 25.4
+Vela; 23.1; 7.5
+Tampa da garrafa térmica;29.2;9.6
+tubo de cola; 9.5; 3.1
+caneca; 26.69; 8.5
+caixa de som; 28; 7.5
+Copo; 20.0; 6.0
+Saleiro; 16.7; 5.3
+lixeirinha;38.9;12.2
+xícara;22;7
+panela; 86.9; 28.0
+manteiga de cacau; 6.5; 2
+Frasco de cosmético; 15.2; 4.8
+Tampa garrafa Bonafont;9.4;2.6
+lata;20.7;6.6
+Garrafa de vinho; 23.5; 7.0
+rosquinha do cachorro;26.0;8.0
+caneca; 26.9; 8.9
+Garrafa; 27.0; 9.0
+tampa; 69.0; 21.7
+caixa de som; 33; 10.5
+copo;25.12;8
+enfeite; 17.3; 5.5
+Copo; 21.0; 6.0
+Filtro de Barro São Jose; 72.9  ; 20  
+Tampa; 35.4; 11.1
+lata; 31.8; 10.1
+Copo;26.3;8.4
+Extintor; 43.0; 13.7
+CervejaFaxe;28.5;8.4
+Panela; 58.0; 19.0
+medalha; 14.8; 4.4
+pote; 29.0; 9.2
+Garrafa; 7.5; 24.2
+fita ; 27.5 ; 8.6
+esmalte; 11.5; 3.4
+desodorante;14.5;4.6
+Panela;74;23
+Tampa; 39.0; 12.5
+Banco;73.3;28.0
+caixinha de música; 30.0; 9.5
+Frasco de Remédio;23.0;8.0
+copo; 52.7; 8.4
+Desodorante;12.7;4.1
+vela; 16.0; 5.0
+garrafa; 20.8; 6.9
+Alexa;31.3;9.3
+pote de vidro; 23.4; 6.5
+vela; 16.5; 6.0
+jarra; 35.5; 11.3
+caixadesom;23;6.5
+troféu; 34.6; 11
+cesta de lixo;64.2;21.0
+garrafa;18.8;6
+Balde Mop; 60.2; 15.0
+Copo;25.5;8.0
+Relógio;15.5;5
+Abajur; 64 ; 20.8 
+pote; 19.5; 8
+tampa de garrafa; 11; 2.5
+Carregador sem fio Samsung; 28.3; 9.1
+rolodepapelvazio; 15.3; 4.7
+lupa;20;6.5
+Esparadrapo;8.1;5.6
+cola; 2.82 ; 0.25
+Álcool e gel; 25.7; 7.5 
+Pote de pimenta;13.3;4.3
+Tampa de Óleo; 12; 4
+Balde de plástico; 97.39 ;31
+lata de milho; 23.5; 7.3
+Bola de basquete; 150.72; 48.0
+Forma; 72.0; 23.0
+durex; 31.3; 9.6
+caneca; 32.8; 10.0
+Luminária; 32.5;10.51
+Mesa;282.6;90
+Vaso; 90.0; 28.5
+fita; 26.5; 8.4
+Lixeira;60.0;18.5
+Boca de caneca; 22.2; 6.4
+Delineador em gel; 12.6; 4.4 
+Ring light;51;16
+copo;20;6
+Chaleira; 48.2; 13.0
+pote de vidro; 31.3; 10.1
+desodorante; 13.0; 4.0
+Panela; 91.0; 19.0
+lata 2 ; 34.5 ;11   
+rolo de fita adesiva; 15.5; 4.9
+Desodorante; 16.6 ; 5.2 
+lata de lixo;60.0;19.0
+tubo;40.2;12.2
+Frasco de sabonete liquido; 23.5; 6.9
+Copo; 21.3; 6.6
+Prato; 62.80; 20
+Lata de desodorante; 14.20 ; 4.50 
+Garrafa térmica; 39; 11
+vaso;109.1;34.6
+panela; 73.83; 23.5
+garrafa; 25.1; 7.6
+copo; 26.5 ;9.5  
+Coqueteleira; 23; 6.5
+Prato; 62.8; 20
+Bom ar; 17.3 ; 5.5
+coqueteleira; 24.0; 8.0
+balde;62;22
+Iogurte;17;4.8
+pote; 32.0; 10.0
+Galão;30;9.6
+Copo;16.3;5.2
+Alcool em gel; 23.6; 7.6
+Prato; 20.12; 13.5
+Fita; 27.5; 8.7
+Taça;37.7;12
+Lata;24;7.5
+abajur; 56.1; 17.9
+Brinquedo cachorro Kong( interior); 19.6; 5.9
+prato; 60.0; 19.5
+pote de alcool gel;22.6;7.2
+Fone Headset;21.038;6.7
+álcool em gel; 25.3; 8.0
+Fone; 23.5; 7.65
+Porta palitos de dente;13.2;4.9
+carretel de linha; 5.0; 1.5
+garrafa; 37.68; 12
+copo; 22; 7.6
+Balança; 46.0; 14.0
+Pote de Café; 45.9; 14.7
+porta canetas;22.7;7.2
+relógio;3;9.2
+garrafa; 22.4; 7.0
+copo; 25.2; 8
+Pilha; 4.5; 1.4
+Caneca;25.6;7.9
+banco;92.0;29.3
+Vela; 20.5; 5.5
+garrafa;21.0;6.5
+copo; 25.9; 8.3
+Tambor; 33.0; 11.0
+transferidor; 38.0; 12.1
+pote; 28.3; 9
+Prato raso;71.709;22.9
+banquinho; 84.8; 27.0
+Enfeite; 15.6; 4.8
+Pote de Alcaparras; 13.6  ; 4.1  
+Bola; 50.4; 15.9
+pote; 49.7; 15.8
+Apontador;8.7;2.8
+Desinfetante; 26.0; 8.3
+RoloPapelAluminio;13.2;4
+Copo; 22.0; 6.8
+pote de creme; 20.9; 6.9
+pote; 25.0; 7.9
+Panela; 11.5; 35.8
+lixeira ; 67.1 ; 23.8
+caneca; 23.4; 7.2
+copo;18;5.73
+Liquidificador;45;14
+Caneca; 22.6; 7.0
+tupperware;52.3;15.0
+lata de leite ninho; 32.0; 10.0
+Pote de gel fixador;30.0;9.4
+lixo; 111.8; 17.8
+Apontador;6.2;2
+hidratante; 25.0; 7.0
+pote; 32.0; 10.1
+ventilador;109.5;36.0
+vidro de conta gotas; 11.8; 3.0
+borrifador de água; 12.8; 4.5
+pote; 41.5; 12.1
+vaso;48.1;15
+caixa de brinquedos; 62.1; 19.8
+vaso de plantas;38.5; 12.0
+cd;37.4;12
+Cola Bastão Pritt; 15.8; 2.5
+Branquinho;9.0;2.7
+Latinha de Alumínio;17;5.5
+Vaso de planta; 20.6 ; 6.6 
+copo americano; 20; 6.5
+caixinha de som redonda; 24; 7.5
+Base monitor acer; 67.9; 21.8
+colirio; 8.6; 2.9
+panela;98;32
+Lixo;59;29.2
+tinta de caneta tonteira; 3.69 ; 0.33
+Frasco de vitaminas; 19.5; 5.5
+Cabo de colher;6.7;1.9
+Rolo de linha de costura; 21; 3
+Vazo de flor;37.7; 12
+lata de panetone; 63.5; 19.6
+Bola de tênis; 20.41; 6.5
+Pote; 31.0; 10.0
+corretivo; 8.8; 2.6
+acetona; 14.8; 5.1
+Cofre;17.0;5.2
+Bowl;40.9;13
+Pote; 26.0; 8.3
+vela; 24.5; 7.6
+Tampa de Chiclete;14.0;4.0
+Fundo de copo; 17; 5.5
+Amolecedor de cutículas; 13.9; 4.5
+Vela;15;4.5
+panela;64;20
+Fruteira; 101.6; 32.9
+bule; 38.8; 13.1
+garrafa de água 510ml; 22.0; 6.0
+Panela de Pressão; 62.5; 20.0
+cofrinho  ; 31.5; 10  
+garrafa de água; 23.1; 7.4
+Garrafa;25.4  ; 8.5  
+lata;32.0;10.0
+kinder;11.4;3.2
+Durex; 30.2; 9.3
+Embalagem de perfume; 10.4; 3
+Apontador; 8.7; 2.8
+Pote de água micelar; 15.15 ; 4.80 
+Paliteiro; 17; 4
+lata;53.7;17.0
+inseticida; 18.85; 6.0
+pote; 30.6; 8.9
+protetor solar; 9.4 ;2.7  
+Pote de Creme; 31; 10
+Cd; 37.68; 12
+pote de papel; 38.6 ;12.3
+pote de achocolatado; 25.0; 8.0
+tampa;24;7
+Pringles;21.5;7
+embalagem de sabonete liquido; 24.0; 7.5
+Maquiagem;20.4;6.5
+Garrafa;30.4;9.7
+Perfume; 17.6; 5.1
+Vaso; 14.6; 13.9
+Soro; 13.7; 4.0
+Caneca;20.4;6.9
+Frasco;21;6.5
+caixa de som; 42.4; 13.5
+Vidro de própolis( base); 10.90; 03.30
+caneca; 25.5; 9.0
+pote de whey;35.9;11.2
+Ventilador;144.44;46
+abajur; 55.2; 17.5
+Copo; 31.5; 10
+Lata de Wafes;30.5;9.7
+garrafa; 23.1; 6.4
+adesivo; 7.53; 2.4
+garrafa de champagne; 25; 7
+Caneca; 22.5; 8.0
+Banco de madeira; 87.5; 27.8
+embalagem de bala;17.9;5.5
+garrafa de suco;2.5;7.8
+lata; 26.1; 8.0
+garrafa pet; 26; 7.3
+Caneca; 26.25; 8.3
+Vaso;32.4;10.2
+pires;46.9;4.9
+Garrafa; 22.5; 7.0
+tampa de um pote;27.0;8.0
+embalagem de leite de coco; 19.7; 5.2
+Pote; 46.0; 17.0
+roda; 22.1; 7.0
+bailarina de bolo; 94.3; 30
+vaso;31.4;10
+acetona; 11.9; 3.8
+Tampa de tinta para Tecidos; 17.4; 5.2
+Espelho Redondo Pequeno/de Bolso; 53  ; 16.5  
+Lixeira; 78.5; 25.2
+xicara; 25.1; 8.0
+Caneta;6.2;2.1
+Perfume; 16.0; 5.0
+CopoMedidor;25.8;8.6
+Pote de Plástico; 32.2; 10.4
+rolo de fita durex; 27.1; 8.4
+caneca; 28.0; 8.9
+Desodorante; 6.4; 21.0
+caneca ; 24.5 ; 7.9
+porta copo; 27.1; 8.8
+perfume;12.5;3.98
+Tampa;69;21
+Balde; 79.25; 25.1
+durex;14.0;4.3
+botão de roupa; 9.0; 2.7
+frasco de álcool em gel;23.8;8.2
+balde; 94.2; 15.0
+Perfume;14;4.5
+ caneca; 22.0; 7.0
+relógio; 89.8; 29.1
+tampa;9.7;2.8
+caixinha de som; 20.8;6.3
+copo; 19.0; 6.5
+garrafa; 30; 9.2
+garrafatermica;20.5;6.5
+maçaneta; 15.3; 4.9
+fita decorativa;12.8;3.9
+apontador;22;7
+Copo Shot; 6.2; 2.4
+Estojo;19.5;6.0
+Lixeira de Escritório;60;19
+Pote de leite em pó; 30.4 ; 10.4 
+desodorante; 15; 4
+prato; 43; 13.5
+Tampinha Garrafa de academia; 17.5; 5.5
+borrifador; 27.0; 9.0
+copo;28;9
+Pringles;21.2;7.1
+moeda argentina;2.82 ; 0.26
+Pote de bolacha; 33.4; 10
+Pote de gengibre;13.9;4.5
+Xícara; 13.3; 4
+Tampa de garrafa;7.85;2.5
+tenys pé; 16.0; 4.8
+Panela; 141.3; 45.0
+Forma de pizza; 109.0; 34.5
+garrafa; 22.0; 7.0
+pote; 39.4; 12.6 
+Pote; 46.0;15.3
+Tampa;31.4;10
+garrafa; 23.9; 7.6
+remédio gotas; 10.4; 3.1
+Ventilado;109.5;34.0
+Embalagem de álcool gel; 24; 7.5
+Caneca; 24; 10
+Pires;50;16
+pires;40;13
+Copo; 22.4; 9.5
+panela; 57.3; 18.9
+batom; 7.5; 2.0
+Achocolatado; 33.0; 10.0
+pote tempero ; 23; 7   
+base de troféu; 27.9; 8.7
+Pote; 29 ; 9.4  
+copo;29.2;9.0
+vaso;32.6;9.8
+Tubo; 13.3; 3.6
+Cachepô; 39.7; 12.6
+Copo plástico; 26.3; 8.4
+Pote de cotonete; 23.00 ; 7.30 
+Saleiro; 14; 3.7
+abajur;39.6;12.5
+cesto de roupa; 136.66; 43.5
+gel; 26.5; 8.2
+vaso; 35; 11  
+Relógio; 30.3; 9.3
+Copo; 26.3; 8.4
+detergente; 18.84 ; 6
+pote de manteiga; 26; 9.8
+ração;21;7
+Copo;22.2;8.3
+xicara pequena; 17.8; 5.3
+Copo;19;6
+Desodorante;11.6;3.7
+Desodorante; 14; 4.2
+Enfeite; 18.7; 10.6
+Garrafa; 34.5; 10.5
+Copo;30.0;9.3
+Copo;25.5;8
+garrafa; 24.2; 7.7
+Vasilha cachorro; 66.10;20.50
