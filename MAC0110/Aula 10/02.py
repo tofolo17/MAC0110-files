@@ -4,7 +4,7 @@ n_2 = int(input())
 
 crescente = True
 while n_2 != 0:
-    if n_1 > n_2:  # Obs.: continua sendo verificada a todo loop. Facilmente alterável.
+    if n_1 > n_2:
         crescente = False
     n_1 = n_2
     n_2 = int(input())
