@@ -1,3 +1,6 @@
+# Problema: Dado um inteiro N > 0, determinar se N pode ser escrito como
+# a soma de dois primos.
+
 def eh_primo(n):  # baseado no exercício 01, versão 02 do professor, aula 12.
 
     if n != 2 and n % 2 == 0:  # Se não for o 2 e for divisível por 2

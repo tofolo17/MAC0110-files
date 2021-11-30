@@ -1,3 +1,5 @@
+# Problema: Dado um inteiro N > 0, listar todos os primos menores ou iguais a N
+
 def eh_primo(n):  # baseado no exercício 01, versão 01 do professor, aula 12.
     i = 2
     primo = True
