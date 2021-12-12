@@ -7,3 +7,33 @@ Produto terminado com zero
 MAC0110-247-2021 || Aula 07 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6589866/mod_resource/content/1/MAC0110-Aula7.pdf
 Iteração
 Dada uma sequência de números inteiros não nulos, imprima o seu produto. A sequência é terminada com um zero.
+
+Soma e quantidade de elementos terminada com número negativo
+MAC0110-247-2021 || Aula 07 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6589866/mod_resource/content/1/MAC0110-Aula7.pdf
+Iteração, Condicional
+Dada uma sequência de números inteiros positivos, ou zero, imprima a sua soma e o número de elementos somados. A sequência é terminada com um número negativo.
+
+Soma, quantidade de elementos e média terminada com número negativo
+MAC0110-247-2021 || Aula 07 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6589866/mod_resource/content/1/MAC0110-Aula7.pdf
+Iteração, Condicional
+Dada uma sequência de números inteiros positivos, ou zero, imprima a sua soma, o número de elementos somados e a média dos números somados. A sequência é terminada com um número negativo.
+
+Somas condicionais, média e quantidade de elementos nulos terminada com número negativo
+MAC0110-247-2021 || Aula 08 - Slide 14 || https://edisciplinas.usp.br/pluginfile.php/6599304/mod_resource/content/1/MAC0110-Aula8.pdf
+Iteração, Condicional
+Dada uma sequência de números inteiros positivos, ou zero, imprima a sua soma, o número de elementos somados, o número de zeros somados e a média dos números positivos não nulos somados. A sequência é terminada com um número negativo.
+
+Soma de números pares terminada com número negativo
+MAC0110-247-2021 || Aula 08 - Slide 14 || https://edisciplinas.usp.br/pluginfile.php/6599304/mod_resource/content/1/MAC0110-Aula8.pdf
+Iteração, Condicional
+Dada uma sequência de números inteiros positivos, ou zero, imprima a soma dos números pares. A sequência é terminada com um número negativo. Dica: para saber se o número é par, verifique o se o resto da divisão dele por dois é zero.
+
+Maior valor da sequência
+MAC0110-247-2021 || Aula 08 - Slide 25 || https://edisciplinas.usp.br/pluginfile.php/6599304/mod_resource/content/1/MAC0110-Aula8.pdf
+Iteração, Condicional
+Dada uma sequência de números positivos, ou zero, imprima o maior valor da sequência. A sequência termina com um número negativo.
+
+Pertence ao quadrado (ainda não resolvido)
+MAC0110-247-2021 || Aula 08 - Slide 25 || https://edisciplinas.usp.br/pluginfile.php/6599304/mod_resource/content/1/MAC0110-Aula8.pdf
+Condicional
+Dados dois números quaisquer, correspondentes às coordenadas de um ponto num plano cartesiano, verifique se esse ponto pertence ao quadrado de vértices localizados nas posições {(-1,-1),(-1,1),(1,-1),(1,1)}. Caso o ponto pertença ao quadrado, imprima a frase “O ponto pertence ao quadrado.”, ou “O ponto não pertence ao quadrado.”, caso contrário.
