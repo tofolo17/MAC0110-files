@@ -162,3 +162,40 @@ Fusão de listas
 MAC0110-247-2021 || Aula 23
 Listas, Iteração, Função, Condicional
 Popule duas listas crescentes e funda-as em uma terceira, também crescente.
+
+Fusão de listas sem repetição
+MAC0110-247-2021 || Aula 23
+Listas, Iteração, Função, Condicional
+Popule duas listas crescentes e funda-as em uma terceira, também crescente e sem repetição.
+
+Pascal
+MAC0110-247-2021 || Aula 23
+Listas, Iteração, Condicional
+* Elaborar enunciado
+
+Sequência sem repetições
+MAC0110-247-2021 || Aula 24 - Slide 04 || https://edisciplinas.usp.br/pluginfile.php/6704311/mod_resource/content/1/MAC0110-Aula24.pdf
+Listas, Iteração, Condicional
+Obter uma sequência de n > 0 números inteiros do usuário e exibí-los sem repetições
+
+Posição na lista
+MAC0110-247-2021 || Aula 24 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6704311/mod_resource/content/1/MAC0110-Aula24.pdf
+Listas, Iteração, Condicional
+Devolve a posição da primeira ocorrência de x em lista. Caso x não ocorra em lista, devolve -1.
+
+Maior segmento
+MAC0110-247-2021 || Aula 24 - Slide 08 || https://edisciplinas.usp.br/pluginfile.php/6704311/mod_resource/content/1/MAC0110-Aula24.pdf
+Listas, Iteração, Condicional
+Dados um número inteiro n > 0 e uma sequência com n números reais, determinar a maior soma de um segmento da sequência. Um segmento é uma subsequência de números consecutivos.
+
+Matriz 3x5
+MAC0110-247-2021 || Aula 26 - Slide 02 || https://edisciplinas.usp.br/pluginfile.php/6715732/mod_resource/content/1/MAC0110-Aula26.pdf
+Matriz, Iteração
+Criar uma matriz 3-por-5 com o valor 2 na posição [0][1] e zero nas demais, e exiba seus valores.
+
+Matriz repetida
+MAC0110-247-2021 || Aula 26 - Slide 03 || https://edisciplinas.usp.br/pluginfile.php/6715732/mod_resource/content/1/MAC0110-Aula26.pdf
+Matriz, Iteração
+Dada uma lista com n inteiros e um inteiro m > 0, criar matriz m-por-n cujas linhas são todas iguais a lista dada
+
+# Escreva uma função que recebe inteiros m>0 e n>0 e devolve uma matriz de tamanho m-por-n cujos elementos são ordenados em ordem crescente começando por 1
