@@ -76,7 +76,7 @@ Dado um inteiro positivo N e uma sequência com M notas finais de MAC0110, deter
 Conjectura de Collatz
 MAC0110-247-2021 || Aula 10
 Iteração, Condicional
-* Enunciar Conjectura de Collatz
+* Visualizar na internet
 
 Primo
 MAC0110-247-2021 || Aula 12
@@ -126,9 +126,39 @@ Escreva um programa que lê um inteiro n >= 0 e imprime os coeficientes da expan
 PG de Iteração
 MAC0110-247-2021 || Aula 16 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6657680/mod_resource/content/1/MAC0110-Aula16.pdf
 Iteração
-Implemente uma função que calcule a média dos n primeiros termos de uma PG de razão q e primeiro termo a0 pela fórmula do slide.
+* Visualizar no slide
 
 PG matemático
 MAC0110-247-2021 || Aula 16 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6657680/mod_resource/content/1/MAC0110-Aula16.pdf
 Aritmética
-Implemente uma função que calcule a média dos n primeiros termos de uma PG de razão q e primeiro termo a0 pela fórmula do slide.
+* Visualizar no slide
+
+max3
+MAC0110-247-2021 || Aula 17 - Slide 01 || https://edisciplinas.usp.br/pluginfile.php/6667810/mod_resource/content/1/MAC0110-Aula17.pdf
+Função, Condicional
+Dados três números quaisquer, faça uma função que calcule e retorne o maior valor dentre os três números dados.
+
+Isósceles no plano cartesiano
+MAC0110-247-2021 || Aula 17 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6667810/mod_resource/content/1/MAC0110-Aula17.pdf
+Condicional
+Faça uma função que receba três pares de coordenadas correspondentes a três pontos no plano, calcule e retorne True se as coordenadas são os vértices de um triângulo isósceles (se pelos menos dois lados são iguais), ou False caso contrário.
+
+Código de barra
+MAC0110-247-2021 || Aula 17 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6667810/mod_resource/content/1/MAC0110-Aula17.pdf
+Iteração, Condicional
+* Visualizar no slide
+
+Crivo de Erastótenes
+MAC0110-247-2021 || Aula 22
+Listas, Iteração, Condicional
+* Visualizar na internet
+
+Representação binária em listas
+MAC0110-247-2021 || Aula 22
+Listas, Iteração
+Dado um número inteiro positivo, imprima sua representação binária.
+
+Fusão de listas
+MAC0110-247-2021 || Aula 23
+Listas, Iteração, Função, Condicional
+Popule duas listas crescentes e funda-as em uma terceira, também crescente.
