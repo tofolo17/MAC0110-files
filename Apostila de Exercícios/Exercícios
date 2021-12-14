@@ -37,3 +37,78 @@ Pertence ao quadrado (ainda não resolvido)
 MAC0110-247-2021 || Aula 08 - Slide 25 || https://edisciplinas.usp.br/pluginfile.php/6599304/mod_resource/content/1/MAC0110-Aula8.pdf
 Condicional
 Dados dois números quaisquer, correspondentes às coordenadas de um ponto num plano cartesiano, verifique se esse ponto pertence ao quadrado de vértices localizados nas posições {(-1,-1),(-1,1),(1,-1),(1,1)}. Caso o ponto pertença ao quadrado, imprima a frase “O ponto pertence ao quadrado.”, ou “O ponto não pertence ao quadrado.”, caso contrário.
+
+Algarismos
+MAC0110-247-2021 || Aula 09
+Iteração
+Dado um número inteiro, imprima os digitos deste número.
+
+Número palíndromo
+MAC0110-247-2021 || Aula 09
+Iteração, Condicional
+Dado um número inteiro, encontre seu contrário, e diga se ele é palíndromo.
+
+Binário
+MAC0110-247-2021 || Aula 09
+Iteração, Condicional
+Dado um número inteiro positivo, imprima sua representação binária.
+
+Ano bissexto
+MAC0110-247-2021 || Aula 09
+Condicional
+Verifique se um ano N é bissexto.
+
+Soma de 1 a N
+MAC0110-247-2021 || Aula 10
+Iteração, Condicional
+Dado um número positivo N maior que 0, calcule a soma dos números de 1 a N.
+
+Crescente
+MAC0110-247-2021 || Aula 10
+Iteração, Condicional
+Dada uma sequência de números positivos quaisquer terminada em zero, determine se a sequência está em ordem crescente.
+
+Aprovados, reprovados e de recuperação
+MAC0110-247-2021 || Aula 10
+Iteração, Condicional
+Dado um inteiro positivo N e uma sequência com M notas finais de MAC0110, determine quantos alunos: foram aprovados: notafinal ≥ 5; estão de recuperação: 3 ≤ notafinal < 5; foram reprovados: notafinal < 3.
+
+Conjectura de Collatz
+MAC0110-247-2021 || Aula 10
+Iteração, Condicional
+Conjectura de Collatz
+
+Primo
+MAC0110-247-2021 || Aula 12
+Iteração, Condicional
+Dado um número positivo N, determine se ele é primo.
+
+PA
+MAC0110-247-2021 || Aula 12
+Iteração, Condicional
+Dados um número inteiro positivo n maior que 2, e uma sequência de n números inteiros positivos, verifique se a sequência é uma progressão aritmética.
+
+Retirar dígito
+MAC0110-247-2021 || Aula 12
+Iteração, Condicional
+Dado um número inteiro positivo n maior que 1 e um dígito d, compute o número obtido removendo a primeira ocorrência do dígito d > 0 em n.
+
+Busca binária
+MAC0110-247-2021 || Aula 12
+Iteração, Condicional
+Pense em um número inteiro positivo N entre 1 e 100. Faça um algoritmo que advinhe qual o número pensado com o menor número de perguntas possível.
+
+Listar primos menores que N
+MAC0110-247-2021 || Aula 13 || https://edisciplinas.usp.br/pluginfile.php/6636265/mod_resource/content/1/MAC0110-Aula13.pdf
+Iteração, Condicional, Função
+Dado um inteiro N > 0, listar todos os primos menores ou iguais a N.
+
+Soma de dois primos
+MAC0110-247-2021 || Aula 13 || https://edisciplinas.usp.br/pluginfile.php/6636265/mod_resource/content/1/MAC0110-Aula13.pdf
+Iteração, Condicional, Função
+Dado um inteiro N > 0, determinar se N pode ser escrito como a soma de dois primos.
+
+Monte Carlo e aproximação de Pi
+MAC0110-247-2021 || Aula 14 || https://edisciplinas.usp.br/pluginfile.php/6642474/mod_resource/content/1/MAC0110-Aula14.pdf
+Iteração, Condicional
+Como o EP2, mas de forma não aleatória, dividindo o quadrado em N x N segmentos.
