@@ -76,7 +76,7 @@ Dado um inteiro positivo N e uma sequência com M notas finais de MAC0110, deter
 Conjectura de Collatz
 MAC0110-247-2021 || Aula 10
 Iteração, Condicional
-Conjectura de Collatz
+* Enunciar Conjectura de Collatz
 
 Primo
 MAC0110-247-2021 || Aula 12
@@ -99,16 +99,36 @@ Iteração, Condicional
 Pense em um número inteiro positivo N entre 1 e 100. Faça um algoritmo que advinhe qual o número pensado com o menor número de perguntas possível.
 
 Listar primos menores que N
-MAC0110-247-2021 || Aula 13 || https://edisciplinas.usp.br/pluginfile.php/6636265/mod_resource/content/1/MAC0110-Aula13.pdf
+MAC0110-247-2021 || Aula 13
 Iteração, Condicional, Função
 Dado um inteiro N > 0, listar todos os primos menores ou iguais a N.
 
 Soma de dois primos
-MAC0110-247-2021 || Aula 13 || https://edisciplinas.usp.br/pluginfile.php/6636265/mod_resource/content/1/MAC0110-Aula13.pdf
+MAC0110-247-2021 || Aula 13
 Iteração, Condicional, Função
 Dado um inteiro N > 0, determinar se N pode ser escrito como a soma de dois primos.
 
-Monte Carlo e aproximação de Pi
-MAC0110-247-2021 || Aula 14 || https://edisciplinas.usp.br/pluginfile.php/6642474/mod_resource/content/1/MAC0110-Aula14.pdf
-Iteração, Condicional
-Como o EP2, mas de forma não aleatória, dividindo o quadrado em N x N segmentos.
+Fatorial
+MAC0110-247-2021 || Aula 15 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6649422/mod_resource/content/1/MAC0110-Aula15.pdf
+Função, Iteração
+Escreva uma função fatorial que recebe como parâmetro um número inteiro n >= 0, e retorna n!.
+
+Binomial
+MAC0110-247-2021 || Aula 15 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6649422/mod_resource/content/1/MAC0110-Aula15.pdf
+Função, Iteração
+Escreva uma função binomial que recebe como parâmetros número inteiros m >= 0 e n >= 0, e retorna o coeficiente binomial m!/((m-n)!n!).
+
+Coeficiente de expanção
+MAC0110-247-2021 || Aula 15 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6649422/mod_resource/content/1/MAC0110-Aula15.pdf
+Função, Iteração
+Escreva um programa que lê um inteiro n >= 0 e imprime os coeficientes da expansão de (x + y)^n, isto é, binomial(n,0), binomial(n,1),..., binomial(n,n).
+
+PG de Iteração
+MAC0110-247-2021 || Aula 16 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6657680/mod_resource/content/1/MAC0110-Aula16.pdf
+Iteração
+Implemente uma função que calcule a média dos n primeiros termos de uma PG de razão q e primeiro termo a0 pela fórmula do slide.
+
+PG matemático
+MAC0110-247-2021 || Aula 16 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6657680/mod_resource/content/1/MAC0110-Aula16.pdf
+Aritmética
+Implemente uma função que calcule a média dos n primeiros termos de uma PG de razão q e primeiro termo a0 pela fórmula do slide.
