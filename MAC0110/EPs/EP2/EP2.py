@@ -11,7 +11,7 @@ import pandas
 
 
 def main():
-    SimulaConvergenciaPi(m=50, n=2000, r=10)
+    # SimulaConvergenciaPi(m=50, n=2000, r=10)
 
     dados = leiaDados('Dados EP2.csv')
     values_pi = calculaPi(dados)
@@ -44,7 +44,7 @@ def varV(V: list, n: int) -> float:
         s += (V[i] - m) ** 2
         i += 1
 
-    return s / (n - 1)
+    return s / n
 
 
 def PiMCM(n: int) -> float:
@@ -94,7 +94,8 @@ def SimulaConvergenciaPi(m: int, r: int, n: int):
         dps += [sqrt(v)]
         i += 1
 
-    GraficaMCMPi(m, medias, dps)
+    return medias, dps
+    # GraficaMCMPi(m, medias, dps)
 
 
 def GraficaMCMPi(mpontos: int, mediaMCMPi: list, desvioMCMPi: list) -> None:
