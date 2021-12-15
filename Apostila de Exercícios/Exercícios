@@ -198,4 +198,218 @@ MAC0110-247-2021 || Aula 26 - Slide 03 || https://edisciplinas.usp.br/pluginfile
 Matriz, Iteração
 Dada uma lista com n inteiros e um inteiro m > 0, criar matriz m-por-n cujas linhas são todas iguais a lista dada
 
-# Escreva uma função que recebe inteiros m>0 e n>0 e devolve uma matriz de tamanho m-por-n cujos elementos são ordenados em ordem crescente começando por 1
+Matriz de linhas ordenadas
+MAC0110-247-2021 || Aula 26 - Slide 05 || https://edisciplinas.usp.br/pluginfile.php/6715732/mod_resource/content/1/MAC0110-Aula26.pdf
+Matriz, Iteração
+Escreva uma função que recebe inteiros m>0 e n>0 e devolve uma matriz de tamanho m-por-n cujos elementos são ordenados em ordem crescente começando por 1
+
+Ponto de sela
+MAC0110-247-2021 || Aula 26 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6715732/mod_resource/content/1/MAC0110-Aula26.pdf
+Matriz, Iteração, Condicional, Função
+Um ponto de sela de uma matriz é um elemento que é maior que ou igual a todos os elementos na mesma linha e menor que ou igual a todas os elementos na mesma coluna. Escreva uma função que recebe uma matriz e devolve uma matriz contendo a posição de seus pontos de sela.
+
+Multiplicação de matrizes
+MAC0110-247-2021 || Aula 26 - Slide 06 || https://edisciplinas.usp.br/pluginfile.php/6721031/mod_resource/content/1/MAC0110-Aula27.pdf
+Matriz, Iteração, Função
+Dadas duas matrizes A e B, A de dimensão m-por-p e B de dimensão p-por-n, escreva uma função que calcule a matriz C resultado do produto de A por B.
+
+Quadrado latino
+MAC0110-247-2021 || Aula 26 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6721031/mod_resource/content/1/MAC0110-Aula27.pdf
+Matriz, Iteração, Função, Condicional
+Dizemos que uma matriz A de tamanho n-por-n é um quadrado latino de ordem n se em cada linha e em cada coluna aparecem todos os inteiros 1, 2, 3, . . . , n (ou seja, cada linha e coluna é permutação dos inteiros 1, 2, . . . , n). Escreva uma função que recebe uma matriz quadrada, sua dimensão n e verifica se ela é um quadrado latino.
+
+Matriz simétrica
+MAC0110-247-2021 || Aula 27 - Slide 08 || https://edisciplinas.usp.br/pluginfile.php/6721031/mod_resource/content/1/MAC0110-Aula27.pdf
+Matriz, Iteração, Função
+Dada uma matriz M de m linhas por m colunas, faça uma função em Python que verifique se M é uma matriz simétrica.
+
+Matriz e valor arbitrário
+MAC0110-247-2021 || Aula 27 - Slide 05 || https://edisciplinas.usp.br/pluginfile.php/6721031/mod_resource/content/1/MAC0110-Aula27.pdf
+Matriz, Iteração, Função
+Escreva uma função que, dado o número de linhas, o número de colunas e um valor arbitrário, crie uma matriz com todos os valores iguais a esse valor arbitrário
+
+Matriz identidade
+MAC0110-247-2021 || Aula 27 - Slide 05 || https://edisciplinas.usp.br/pluginfile.php/6721031/mod_resource/content/1/MAC0110-Aula27.pdf
+Matriz, Iteração, Função
+Escreva uma função que, dado o número inteiro n que representa o número de linhas e o número de colunas (matriz quadrada), crie a matriz identidade
+
+Preenche borda
+MAC0110-247-2021 || Aula 27 - Slide 09 || https://edisciplinas.usp.br/pluginfile.php/6721031/mod_resource/content/1/MAC0110-Aula27.pdf
+Matriz, Iteração, Função
+Dada uma matriz M de m linhas por n colunas, faça uma função em Python que preencha a borda (primeira e última linha, primeira e última coluna) com o valor v dado
+
+Frequência de vogais
+MAC0110-247-2021 || Aula 28 - Slide 08 || https://edisciplinas.usp.br/pluginfile.php/6725247/mod_resource/content/1/MAC0110-Aula28.pdf
+String, Iteração, Condicional
+Dada uma string contendo uma frase, imprimir o comprimento da palavra mais longa. Considere como palavra uma sequência de caracteres não-vazia delimitada por espaços ou fim/começo da string.
+
+Comprimento
+MAC0110-247-2021 || Aula 28 - Slide 08 || https://edisciplinas.usp.br/pluginfile.php/6725247/mod_resource/content/1/MAC0110-Aula28.pdf
+String, Iteração, Condicional
+Dada uma string contendo uma frase, imprimir o comprimento da palavra mais longa. Considere como palavra uma sequência de caracteres não-vazia delimitada por espaços ou fim/começo da string.
+
+Comprimento especial
+MAC0110-247-2021 || Aula 28 - Slide 09 || https://edisciplinas.usp.br/pluginfile.php/6725247/mod_resource/content/1/MAC0110-Aula28.pdf
+String, Iteração, Condicional
+Obtenha o comprimento da palavra mais longa, considerando como palavra uma sequência de letras delimitadas por espaço, marcas de pontuação (!.,;?[]():'") ou início/fim da string.
+
+Separadores
+MAC0110-247-2021 || Aula 28 - Slide 10 || https://edisciplinas.usp.br/pluginfile.php/6725247/mod_resource/content/1/MAC0110-Aula28.pdf
+String, Iteração, Condicional, Função
+Escreva uma função que recebe uma string texto e uma string sep e retorna uma lista contendo as “palavras” do texto usando os caracteres sep como delimitadores das palavras.
+
+Reflexão horizontal
+MAC0110-247-2021 || Aula 28 - Slide 11 || https://edisciplinas.usp.br/pluginfile.php/6725247/mod_resource/content/1/MAC0110-Aula28.pdf
+Matriz, Iteração, Função
+Faça uma função que receba uma matriz M e suas dimensões m e n e retorne a matriz de ponta cabeça (reflexão horizontal).
+
+Leitura linha a linha
+MAC0110-247-2021 || Aula 29 - Slide 07 || https://edisciplinas.usp.br/pluginfile.php/6730627/mod_resource/content/1/MAC0110-Aula29.pdf
+Arquivos, Iteração, Listas
+Escreva um programa que lê um nome de arquivo do usuário e exibe as linhas do arquivo correspondente, numerando-as.
+
+Palavra mais frequente
+MAC0110-247-2021 || Aula 29 - Slide 09 || https://edisciplinas.usp.br/pluginfile.php/6730627/mod_resource/content/1/MAC0110-Aula29.pdf
+Arquivos, Listas, Iteração, Condicional
+Escreva um programa que encontra a palavra mais frequente no texto, ou seja, a que ocorre mais vezes. Para ser mais interessante, considere apenas palavras com ao menos 4 letras.
+
+prod3
+MAC0110-2021 || Reunião 08
+Iteração, Condicional
+Dizemos que um número natural é prod3 se ele é produto de três números naturais consecutivos. Dado um inteiro não-negativo n, imprimir True e n é prod3 e False em caso contrário.
+
+Soma dos positivos
+MAC0110-2021 || Reunião 09
+Iteração, Condicional
+Dados um número inteiro n, n > 0, e uma sequência com n números inteiros, determinar a soma dos inteiros positivos da sequência.
+
+Soma de pares e ímpares
+MAC0110-2021 || Reunião 09
+Iteração, Condicional
+Dados um número inteiro n, n>0, e uma sequência com n números inteiros, determinar quantos números da sequência são pares e quantos são ímpares.
+
+Conta negativos, nulos e positivos
+MAC0110-2021 || Reunião 09
+Iteração, Condicional
+Dados um número inteiro n e uma sequência de n números inteiros, determinar quantos são negativos, nulos (iguais a zero) e positivos.
+
+Dígitos adjacentes iguais
+MAC0110-2021 || Aula 10
+Iteração, Condicional
+Dado um número inteiro n > 0, escreva uma programa que imprima True caso este número contenha dois dígitos adjacentes iguais e False caso contrário.
+
+Número primo
+MAC0110-2021 || Aula 10
+Iteração, Condicional
+Dado um número inteiro n, n>0, escreva um programa que imprima True caso n seja primo e False caso contrário.
+
+Primeiros ímpares
+MAC0110-2021 || Aula 07
+Iteração, Condicional
+Escreva um programa que, dado um número inteiro positivo n, imprima os n primeiros naturais ímpares.
+
+Tabuada
+MAC0110-2021 || Aula 11
+Iteração, Condicional
+Dados dois inteiros m e n, escreva um programa que imprima n tabuadas, de 1 a n. Cada tabuada deve imprimir as multiplicações até m.
+
+Fatores primos
+MAC0110-2021 || Aula 11
+Iteração, Condicional
+Dado um número inteiro n, n>0, determine a sua decomposição em fatores primos calculando também a multiplicidade de cada fator.
+
+Pascal
+MAC0110-2021 || Aula 12
+Iteração, Condicional, Função
+Dado um número inteiro positivo m, determine os inteiros na linha m do triângulo de Pascal.
+
+Sequência invertida
+MAC0110-2021 || Aula 16
+Listas, Iteração
+Dados n > 0 e uma sequência com n números reais, imprimi-los na ordem inversa a da leitura.
+
+Frequências
+MAC0110-2021 || Aula 16
+Listas, Iteração, Condicional
+Dados n > 0 e uma sequência com n números inteiros entre 0 e 36, calcular o número de ocorrências da cada valor.
+
+Média e listas
+MAC0110-2021 || Aula 17
+Listas, Iteração, Condicional
+Dadas n notas de provas, calcular a média das notas e o número de notas acima dessa média.
+
+Número alternante
+MAC0110-2021 || Aula 19
+Iteração, Condicional
+* Elaborar enunciado
+
+Matriz esparsa
+MAC0110-247-2021 || Aula 31 - Slide 08 || https://edisciplinas.usp.br/pluginfile.php/6738417/mod_resource/content/1/MAC0110-Aula31.pdf
+Matriz, Dicionário, Listas, Iteração, Condicional
+Escreva um programa que lê uma matriz esparsa de um arquivo que contém o número de linhas e colunas na primeira linha, nas linhas seguintes triplas contendo a linha, a coluna e o valor de cada elemento não nulo da matriz, separados por espaço. Seu programa deve armazenar apenas os elementos não nulos da matriz.
+
+
+Posição de um item
+MAC0110-2021 || Aula 22
+Listas, Iteração, Condicional
+Escreva uma função de nome indice() que recebe uma elemento/coisa/objeto de nome item e uma lista lst e retorna o menor índice de um posição de lst que é igual a item. Se o item não ocorre em lst a função deve retornar None.
+
+Strip
+MAC0110-2021 || Aula 20
+String, Iteração, Condicional
+Escreva uma função limpe() que recebe uma string e retorna a string correspondente sem espaços no início e no final.
+
+Maior prefixo
+MAC0110-2021 || Aula 21
+String, Iteração, Condicional
+Escreva uma função pegue_prefixo() que recebe um índice k, uma string s e uma string proibidos e retorna a maior substring de s começando na posição k e que não possui caracteres em na string proibidos. Alternativamente, podemos dizer que pegue_prefixo() retorna o maior prefixo da string s[k:] que não possui caracteres em proibidos.
+
+Leitora CSV
+MAC0110-2021 || Aula 21
+String, Iteração, Condicional
+Escreva um programa que lê um texto com campos (ou valores) separados por vírgulas e exiba cada campo ou valor em uma linha.
+
+Linhas com val
+MAC0110-2021 || Aula 25
+Matriz, Função, Iteração, Condicional
+Escreva uma função linhas_val() que recebe um matriz mt e um valor val e retorna o número de linhas em que todos os valores são iguais a val
+
+Colunas com val
+MAC0110-2021 || Aula 25
+Matriz, Função, Iteração, Condicional
+Escreva uma função colunas_val() que recebe um matriz mt e um valor val e retorna o número de colunas em que todos os valores são iguais a val
+
+Diagonais com val
+MAC0110-2021 || Aula 25
+Matriz, Função, Iteração, Condicional
+Escreva uma função diagonais_val() que recebe uma matriz quadrada mt e um valor val e retorna True se a matriz é a diagonal principal e secundária de mt tem todos seus valores iguais a val. Em caso contrário a função retorna False.
+
+str_matriz
+MAC0110-2021 || Aula 26
+Matriz, Função, Iteração, Condicional
+Escreva uma função str_matriz() que recebe uma matriz (= list[list]) mt e retorna uma string que para ser usada por print() para exibir a matriz de um forma estruturada:
+
+init_matriz
+MAC0110-2021 || Aula 26
+Matriz, Função, Iteração, Condicional
+Escreva uma função init_matriz() que recebe dois inteiros nlins e ncols e um valor val e cria e retorna uma matriz de dimensão nlins x ncols com o valor val em cada posição
+
+Gire
+MAC0110-2021 || Aula 26
+Matriz, Função, Iteração, Condicional
+Escreva duas funções, uma que gire uma função verticalmente, e outra horizontalmente.
+
+Rode
+MAC0110-2021 || Aula 26
+Matriz, Função, Iteração, Condicional
+Escreva duas funções, uma que rode uma função pra direita, e outra, pra esquerda.
+
+Conte minas
+MAC0110-2021 || Aula 27 || https://www.ime.usp.br/~coelho/mac0110-2021/reunioes/reuniao27_mais_mais_matrizes_epilogo/rabiscos.pdf
+Matriz, Função, Iteração, Condicional
+* Visualizar no slide
+
+Campo minado
+MAC0110-2021 || Aula 27 || https://www.ime.usp.br/~coelho/mac0110-2021/reunioes/reuniao27_mais_mais_matrizes_epilogo/rabiscos.pdf
+Matriz, Função, Iteração, Condicional
+* Visualizar no slide
