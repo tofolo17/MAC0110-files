@@ -5,6 +5,7 @@ def main():
     apostila = Apostila()
     apostila.preencher(filename='Exercícios')
 
+    # print(len(apostila.exercicios)) - 83
     r = 'y'
     while r == 'y':
         t = input("Qual tópico deseja estudar? ('all' para qualquer um) ").capitalize()

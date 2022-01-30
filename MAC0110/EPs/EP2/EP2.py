@@ -11,11 +11,13 @@ import pandas
 
 
 def main():
-    # SimulaConvergenciaPi(m=50, n=2000, r=10)
+    dados = leiaDados(filename='Dados EP2.csv')
 
-    dados = leiaDados('Dados EP2.csv')
-    values_pi = calculaPi(dados)
-    melhoraPi(values_pi)
+    valoresPi = calculaPi(dados)
+
+    print(estimavaMediaPi(valoresPi))
+
+    melhoraPi(valoresPi)
 
 
 def mediaV(V: list, n: int) -> float:
@@ -80,7 +82,7 @@ def estimaPiMC(r: int, n: int) -> (float, float):
     return mediaV(simulations, r), varV(simulations, r)
 
 
-def SimulaConvergenciaPi(m: int, r: int, n: int):
+def simulaConvergenciaPi(m: int, r: int, n: int):
     """
     :param m: Número de simulação maiores de simulações de Monte Carlo;
     :param r: Número de simulações de Monte Carlo;
@@ -94,8 +96,7 @@ def SimulaConvergenciaPi(m: int, r: int, n: int):
         dps += [sqrt(v)]
         i += 1
 
-    return medias, dps
-    # GraficaMCMPi(m, medias, dps)
+    GraficaMCMPi(m, medias, dps)
 
 
 def GraficaMCMPi(mpontos: int, mediaMCMPi: list, desvioMCMPi: list) -> None:
@@ -111,10 +112,14 @@ def GraficaMCMPi(mpontos: int, mediaMCMPi: list, desvioMCMPi: list) -> None:
     plt.xticks(xticks, rotation=-90, fontsize=7)
     plt.xlabel("Simulações")
 
-    plt.ylabel("Valores")
+    plt.ylabel("Aproximação de Pi")
 
-    plt.title("Convergência - π")
-    plt.savefig('GraficaMCMPi')
+    plt.ylim([3, 3.3])
+
+    plt.title("Simulações maiores de Monte Carlo")
+    plt.legend(labels=['n = 100000'])
+
+    plt.show()
 
 
 def leiaDados(filename: str):
@@ -191,8 +196,10 @@ def melhoraPi(valoresPi: list) -> None:
 
     iqr = q3 - q1
 
-    df2 = df[q3 + 1.5 * iqr > df['valores']]
-    df3 = df2[q1 - 1.5 * iqr < df2['valores']]
+    df2 = df[q3 + 0.5 * iqr > df['valores']]
+    df3 = df2[q1 - 0.5 * iqr < df2['valores']]
+
+    print(df3.describe())
 
     plt.scatter(range(len(df3)), df3)
 
@@ -200,6 +207,8 @@ def melhoraPi(valoresPi: list) -> None:
     plt.ylabel("Valores de π")
 
     plt.title("Estimativa de π")
+
+    plt.ylim([0, 30])
 
     plt.show()
 

@@ -50,6 +50,7 @@ def mediaV(V, n):
     """
     :param V: Lista de valores numéricos;
     :param n: Número de elementos em 'V';
+
     :return: Média de 'V'.
     """
     s, i = 0, 0
@@ -65,6 +66,7 @@ def varV(V, n):
     """
     :param V: Lista de valores numéricos;
     :param n: Número de elementos em 'V';
+
     :return: Variância de 'V'.
     """
     m = mediaV(V, n)
@@ -80,6 +82,7 @@ def varV(V, n):
 def PiMCM(n):
     """
     :param n: Número de pontos aleatórios criados;
+
     :return: Estimativa de PI. Número de pontos que caíram dentro do semi-círculo, dividido por 'n'.
     """
     s = i = 0
@@ -99,6 +102,7 @@ def estimaPiMC(r, n):
     """
     :param r: Número de simulações;
     :param n: Número de pontos aleatórios criados em cada simulação;
+
     :return: Média e variância dos resultados das simulações.
     """
     i = 0
@@ -116,7 +120,9 @@ def SimulaConvergenciaPi(m, r, n):
     """
     :param m: Número de simulação maiores de simulações de Monte Carlo;
     :param r: Número de simulações de Monte Carlo;
-    :param n: Número de pontos aleatórios criados em cada simulação de Monte Carlo.
+    :param n: Número de pontos aleatórios criados em cada simulação de Monte Carlo;
+
+    :return: Médias e desvios padrões das simulações maiores.
     """
     i = 0
     medias, dps = [], []
@@ -133,6 +139,7 @@ def SimulaConvergenciaPi(m, r, n):
 def leiaDados(arquivo):
     """
     :param arquivo: Nome do arquivo a ser lido;
+
     :return: Objeto contendo os dados do arquivo.
     """
     dados = pandas.read_csv(arquivo, sep=';')
@@ -144,6 +151,7 @@ def leiaDados(arquivo):
 def calculaPi(dados):
     """
     :param dados: Objeto semelhante a uma planilha. Deve conter colunas 'diametro' e 'circunferencia';
+
     :return: Uma lista com o valor de 'circunferencia' / 'diametro' para cada linha de 'dados'.
     """
     i = 0
@@ -155,12 +163,11 @@ def calculaPi(dados):
     return pis
 
 
-# Retorne um tipo Dataframe ao invés de um tipo vetor
-
 # E9
 def estimavaMediaPi(valoresPi):
     """
     :param valoresPi: Lista de valores aproximados de Pi;
+
     :return: Média e variância de 'valoresPi'.
     """
     size = len(valoresPi)
@@ -171,6 +178,8 @@ def estimavaMediaPi(valoresPi):
 def melhoraPi(valoresPi):
     """
     :param valoresPi: Lista de valores aproximados de Pi.
+
+    :return: Média melhorada dos valores aproximados de Pi.
     """
 
     df = pandas.DataFrame(valoresPi, columns=['valores'])
