@@ -8,7 +8,7 @@ def main():
   eh_permuta = True
   while i < n and eh_permuta:
     L = A[i]
-    C = [A[i][j] for j in range(n)]
+    C = [A[j][i] for j in range(n)]
     print(L, C)
 
     if not(permuta(L) and permuta(C)):
