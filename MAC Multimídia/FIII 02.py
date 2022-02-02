@@ -22,6 +22,7 @@ def le_matriz(m, n):
   return A
 
 
+# b)
 def imprime_matriz(A):
   for linha in A:
     print(linha)
