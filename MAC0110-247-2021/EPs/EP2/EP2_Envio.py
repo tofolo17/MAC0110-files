@@ -20,7 +20,7 @@ import pandas
 
   Nome : Gustavo Valencio Tofolo
   NUSP : 11815267
-  Turma: MAC0110-247-2021
+  Turma: MAC0110-247-2021-247-2021
   Prof.: Prof. Roberto Hirata Jr.
 
   Referências: Com exceção das rotinas fornecidas no enunciado
