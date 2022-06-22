@@ -1,7 +1,15 @@
-from random import randint
-
 MAX_TENTATIVAS = 6
 NUM_LETRAS = 5
+
+"""
+Funcionam na v1:
+    "narco" --> "marca"
+    "manta" --> "prata"
+    "arara" --> 'amora"
+    
+Testes:
+    "parte" --> "marca" e "arara"
+"""
 
 
 def main():
@@ -9,16 +17,16 @@ def main():
     # pede opção de lingua
     lingua = ''
     while lingua != 'P' and lingua != 'I':
-        lingua = input("Qual o idioma (I para inglês ou P para português)? ")
+        lingua = 'P'  # input("Qual o idioma (I para inglês ou P para português)? ")
 
     # carrega lista de palavras do arquivo correspondente
     if lingua == 'P':
-        lista_palavras = cria_lista_palavras('palavras')
+        lista_palavras = cria_lista_palavras('palavras.txt')
     else:
-        lista_palavras = cria_lista_palavras('words')
+        lista_palavras = cria_lista_palavras('words.txt')
 
     # sorteia uma palavra da lista
-    palavra = lista_palavras[randint(0, len(lista_palavras) - 1)]
+    palavra = 'parte'  # lista_palavras[randint(0, len(lista_palavras) - 1)]
 
     # variáveis da partida
     ganhou = False
@@ -38,8 +46,10 @@ def main():
             chute = input('Digite a palavra: ')
 
         checa_tentativa(palavra, chute, marca)
+
         lista_tentativas.append([chute, marca[:]])
         imprime_resultado(lista_tentativas)
+
         atualiza_teclado(chute, marca, teclado)
 
         num_tentativas += 1
@@ -110,13 +120,17 @@ def imprime_resultado(lista):
     Recebe a lista de tentativas e imprime as tentativas,
     usando * para verde e + para amarelo.
     """
+
     for resultados in lista:
         palavra = resultados[0]
         marca = resultados[1]
 
         for char in palavra:
             print(char, end=' ')
+        print()
+        print(" ".join(marca))
 
+    """
         print()
         for char in marca:
             if char == '1':
@@ -126,6 +140,7 @@ def imprime_resultado(lista):
             else:
                 print(char, end=' ')
         print()
+    """
 
 
 def imprime_teclado(teclado):
