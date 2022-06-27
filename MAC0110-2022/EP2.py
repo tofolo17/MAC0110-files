@@ -1,15 +1,7 @@
+from random import randint
+
 MAX_TENTATIVAS = 6
 NUM_LETRAS = 5
-
-"""
-Funcionam na v1:
-    "narco" --> "marca"
-    "manta" --> "prata"
-    "arara" --> 'amora"
-    
-Testes:
-    "parte" --> "marca" e "arara"
-"""
 
 
 def main():
@@ -17,7 +9,7 @@ def main():
     # pede opção de lingua
     lingua = ''
     while lingua != 'P' and lingua != 'I':
-        lingua = 'P'  # input("Qual o idioma (I para inglês ou P para português)? ")
+        lingua = input("Qual o idioma (I para inglês ou P para português)? ")
 
     # carrega lista de palavras do arquivo correspondente
     if lingua == 'P':
@@ -26,12 +18,30 @@ def main():
         lista_palavras = cria_lista_palavras('words.txt')
 
     # sorteia uma palavra da lista
-    palavra = 'parte'  # lista_palavras[randint(0, len(lista_palavras) - 1)]
+    palavra = lista_palavras[randint(0, len(lista_palavras) - 1)]
+
+    # lista para funcionamento e substituições
+    subs = {
+        'á': 'a',
+        'â': 'a',
+        'ã': 'a',
+        'é': 'e',
+        'ê': 'e',
+        'í': 'i',
+        'ó': 'o',
+        'ô': 'o',
+        'ú': 'u',
+        'ç': 'c'
+    }
+    palavra_list = []
+    for char in palavra:
+        if char in subs:
+            char = subs[char]
+        palavra_list += char
 
     # variáveis da partida
     ganhou = False
     num_tentativas = 0
-
     lista_tentativas = []
     teclado = inicializa_teclado()
     marca = ['_', '_', '_', '_', '_']
@@ -40,12 +50,15 @@ def main():
     while num_tentativas < MAX_TENTATIVAS and not ganhou:
         imprime_teclado(teclado)
 
-        chute = input('Digite a palavra: ')
+        # input do chute
+        chute = input('Digite a palavra: ').lower()
         while chute not in lista_palavras:
             print('Palavra inválida!')
-            chute = input('Digite a palavra: ')
+            chute = input('Digite a palavra: ').lower()
 
-        checa_tentativa(palavra, chute, marca)
+        # transformação de chute e análise da tentativa
+        chute = [char for char in chute]
+        checa_tentativa(palavra_list, chute, marca)
 
         lista_tentativas.append([chute, marca[:]])
         imprime_resultado(lista_tentativas)
@@ -92,26 +105,34 @@ def checa_tentativa(palavra, chute, marca):
     se tem letra certa no lugar errado, atualizando a posicao da lista
     marca com 2 (amarelo).
     """
-    # Tá meio gambiarra, rever se possível
-    repetidos = []
-    indices = []
-    for i in range(len(palavra)):
-        c = chute[i]
-        p = palavra[i]
+    # evitando alterações fora do escopo
+    temp_chute = chute[:]
+    temp_palavra = palavra[:]
+
+    # checa igualdades
+    for i in range(len(temp_palavra)):
+        c = temp_chute[i]
+        p = temp_palavra[i]
 
         if c == p:
             marca[i] = '1'
-            for j in range(len(repetidos)):
-                r = repetidos[j]
-                if c == r:
-                    marca[indices[j]] = '_'
+            temp_chute[i] = ' '
+            temp_palavra[i] = ' '
 
-        elif c in palavra:
+    # checa "ins"
+    for i in range(len(temp_palavra)):
+        c = temp_chute[i]
+
+        if c in temp_palavra and c != ' ':
             marca[i] = '2'
-            repetidos += [c]
-            indices += [i]
+            temp_chute[i] = ' '
+            temp_palavra[i] = ' '
 
-        else:
+    # checa desigualdades
+    for i in range(len(temp_palavra)):
+        c = temp_chute[i]
+
+        if c != ' ':
             marca[i] = '_'
 
 
@@ -120,7 +141,6 @@ def imprime_resultado(lista):
     Recebe a lista de tentativas e imprime as tentativas,
     usando * para verde e + para amarelo.
     """
-
     for resultados in lista:
         palavra = resultados[0]
         marca = resultados[1]
@@ -128,10 +148,7 @@ def imprime_resultado(lista):
         for char in palavra:
             print(char, end=' ')
         print()
-        print(" ".join(marca))
 
-    """
-        print()
         for char in marca:
             if char == '1':
                 print('*', end=' ')
@@ -140,7 +157,6 @@ def imprime_resultado(lista):
             else:
                 print(char, end=' ')
         print()
-    """
 
 
 def imprime_teclado(teclado):

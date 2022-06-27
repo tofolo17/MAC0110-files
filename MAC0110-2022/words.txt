@@ -683,7 +683,6 @@ bunny
 oxide
 vowel
 sharp
-co-op
 hurst
 razor
 fancy
@@ -922,7 +921,6 @@ flare
 smear
 stump
 hi-fi
-para.
 burgh
 avail
 bluff
