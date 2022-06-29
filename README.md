@@ -1,6 +1,5 @@
 ## O que você encontrará neste repositório?
 
-***
 <p>
 Solução dos exercícios elaborados pelos docentes da disciplina
 <a href="https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=mac0110">MAC0110 (Introdução a Computação)</a>,
@@ -21,8 +20,6 @@ O curso foi concluído em três momentos distintos, cada qual com diferente abor
 </ol>
 
 ## What will you find in this repository?
-
-***
 
 <p>
 Solution of exercises formulated by the course’s professors
