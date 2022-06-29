@@ -1,13 +1,6 @@
 ## O que você encontrará neste repositório?
 
 ***
-
-<style>
-p, li {
-    text-align: justify;
-}
-</style>
-
 <p>
 Solução dos exercícios elaborados pelos docentes da disciplina
 <a href="https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=mac0110">MAC0110 (Introdução a Computação)</a>,
