@@ -1,7 +1,6 @@
+import pandas
 from math import sqrt
 from random import random
-
-import pandas
 
 """
   AO PREENCHER ESSE CABEÇALHO COM O MEU NOME E O MEU NÚMERO USP,

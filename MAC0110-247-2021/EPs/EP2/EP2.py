@@ -3,11 +3,10 @@ https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
 https://pandas.pydata.org/docs/index.html
 """
-from math import sqrt
-from random import random
-
 import matplotlib.pyplot as plt
 import pandas
+from math import sqrt
+from random import random
 
 
 def main():
