@@ -318,6 +318,7 @@ vimos
 dorso
 verso
 líder
+dcbax
 vazio
 tanto
 entre
